@@ -1,0 +1,26 @@
+You are working inside my Unity 2D project TEFO.
+
+I have a new extracted asset pack folder named TEFO_SmallMap_Rebuild_AssetPack.
+Please ingest the PNG files from:
+TEFO_SmallMap_Rebuild_AssetPack/UnityReady/Assets/Art/Map
+
+Use Docs/asset_manifest.csv as the source of truth.
+Copy each file into the suggested_unity_folder inside the project.
+Then apply pixel-art import settings:
+- Texture Type: Sprite
+- Sprite Mode: Single
+- Pixels Per Unit: 32
+- Filter Mode: Point (no filter)
+- Compression: None
+- Mip Maps: false
+- Alpha Is Transparency: true
+- Wrap Mode: Clamp
+- Mesh Type: Full Rect
+- Generate Physics Shape: false
+
+Create Tile assets for files under Assets/Art/Map/Tiles.
+Create prefabs for files under Assets/Art/Map/Props.
+Do not modify Player, vehicles, weapons, camera, canvas, animation controllers, or gameplay scripts.
+Do not delete existing assets.
+If a destination file already exists, create a safe unique filename or ask before overwriting.
+After ingesting, update MAP_ASSET_INGEST_REPORT.md and then run/generate the small map demo using the new assets.
