@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private Vector2 moveInput;
 
+    public bool IsFacingLeft { get; private set; }
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -25,9 +27,12 @@ public class PlayerMovement : MonoBehaviour
         bool isWalkingUp = moveInput.y > 0.1f && Mathf.Abs(moveInput.y) >= Mathf.Abs(moveInput.x);
         bool isWalkingSide = Mathf.Abs(moveInput.x) > 0.1f && Mathf.Abs(moveInput.x) > Mathf.Abs(moveInput.y);
 
-        if (spriteRenderer != null && isWalkingSide)
+        if (isWalkingSide)
         {
-            spriteRenderer.flipX = moveInput.x < 0f;
+            IsFacingLeft = moveInput.x < 0f;
+
+            if (spriteRenderer != null)
+                spriteRenderer.flipX = IsFacingLeft;
         }
 
         if (animator != null)

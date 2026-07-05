@@ -9,6 +9,8 @@ public class PlayerVehicleInteractor : MonoBehaviour
     [SerializeField] private PlayerMovement playerMovement;
     [SerializeField] private SpriteRenderer playerRenderer;
     [SerializeField] private Collider2D playerBodyCollider;
+    [SerializeField] private GameObject weaponRoot;
+    [SerializeField] private WeaponAttack weaponAttack;
 
     private bool isDriving;
     private CarTopDownController currentCar;
@@ -16,6 +18,20 @@ public class PlayerVehicleInteractor : MonoBehaviour
     [SerializeField] private float interactRadius = 1.8f;
 
     private CarTopDownController nearbyCar;
+
+    private void Awake()
+    {
+        if (weaponRoot == null)
+        {
+            Transform weaponPivot = transform.Find("WeaponPivot");
+
+            if (weaponPivot != null)
+                weaponRoot = weaponPivot.gameObject;
+        }
+
+        if (weaponAttack == null)
+            weaponAttack = GetComponentInChildren<WeaponAttack>(true);
+    }
 
     private void Update()
     {
@@ -35,7 +51,7 @@ public class PlayerVehicleInteractor : MonoBehaviour
             EnterCar();
         }
     }
-
+    
     private void Start()
     {
         HidePrompt();
@@ -107,6 +123,26 @@ public class PlayerVehicleInteractor : MonoBehaviour
         interactPromptText.gameObject.SetActive(false);
     }
 
+    private void SetWeaponActive(bool active)
+    {
+        if (active)
+        {
+            if (weaponRoot != null)
+                weaponRoot.SetActive(true);
+
+            if (weaponAttack != null)
+                weaponAttack.enabled = true;
+
+            return;
+        }
+
+        if (weaponAttack != null)
+            weaponAttack.enabled = false;
+
+        if (weaponRoot != null)
+            weaponRoot.SetActive(false);
+    }
+
     private void EnterCar()
     {
         currentCar = nearbyCar;
@@ -122,6 +158,8 @@ public class PlayerVehicleInteractor : MonoBehaviour
 
         if (playerBodyCollider != null)
             playerBodyCollider.enabled = false;
+
+        SetWeaponActive(false);
 
         currentCar.EnableControl();
 
@@ -145,6 +183,8 @@ public class PlayerVehicleInteractor : MonoBehaviour
 
         if (playerBodyCollider != null)
             playerBodyCollider.enabled = true;
+
+        SetWeaponActive(true);
 
         if (cameraFollow != null)
             cameraFollow.SetTarget(transform);
