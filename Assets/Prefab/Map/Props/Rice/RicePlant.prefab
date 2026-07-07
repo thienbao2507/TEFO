@@ -27,8 +27,8 @@ Transform:
   m_GameObject: {fileID: 5179999734752391844}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 26.2, y: 33.3, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_LocalPosition: {x: 26.049, y: 33.315, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: ed400e5dd4f0c5d48912caae0199d56c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 93c8beaa589d9444e84d0bf5eaf12ac3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -101,9 +101,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minAngle: 2
-  maxAngle: 5
+  maxAngle: 7
   minSpeed: 0.8
-  maxSpeed: 1.6
+  maxSpeed: 2
   xMoveAmount: 0.015
   noiseAmount: 0.35
   noiseSpeed: 0.8
+  playerTransform: {fileID: 0}
+  autoFindPlayer: 1
+  playerInteractionOffset: {x: 0, y: -1}
+  pushRadius: 0.75
+  pushAngle: 55
+  pushSmooth: 12
+  recoverSmooth: 0.1
+  pushedXMoveAmount: 0.05
+  minimumVisiblePush: 0.08
+  movementInfluence: 0.85
+  minMovementSpeedForDirectionalPush: 0.25
+  horizontalPushBias: 0.65
+  debugPush: 0
+  debugThisPlant: 0
+  currentDistance: 0
+  currentTargetPush: 0
+  currentPush: 0
+  currentPlayerVelocity: {x: 0, y: 0}
