@@ -1,0 +1,33 @@
+AE86 Production32 Step 1E - slot 06 / 22.50 degrees
+
+Use these references as strict visual anchors:
+- Step 1D slot 05 / 33.75 degrees
+- Step 1D slot 07 / 11.25 degrees
+- active Up, UpRight, and Right identity anchors
+
+Create one genuinely new pixel-art AE86 hatchback perspective at exactly 22.50 degrees. It must be the missing midpoint between slot 05 and slot 07, not a transformed copy of either neighbor.
+
+Orientation and geometry:
+- The front is the black hood, raised pop-up headlights, yellow front lights, and front bumper.
+- Put the front at upper-right on the canvas.
+- The rear is the hatch, rear glass, red taillights, and rear bumper.
+- Put the rear at lower-left on the canvas.
+- The longitudinal centerline rises from rear lower-left to front upper-right.
+- The front wheel center is visibly higher than the rear wheel center.
+- Show more side body and side windows than slot 05.
+- Show more roof, hood top, windshield, and top-down depth than slot 07.
+- Keep an intermediate silhouette and compact wheelbase; do not stretch the car horizontally.
+
+Identity:
+Preserve the exact compact AE86-inspired hatchback, light-gray body, black hood, black lower trim, dark purple-black windows, dark wheels, pop-up headlight construction, yellow front lights, red rear lights, current roof/window/hatch shapes, gray-purple shading, black pixel outline, pixel density, and gameplay scale.
+
+Negative constraints:
+- Do not point the nose lower-right.
+- Do not become DownRight, straight Right, full 45-degree UpRight, slot 05, or slot 07.
+- Do not rotate, shear, scale, mirror, trace, or duplicate a neighboring bitmap.
+- No shadow, floor, road, text, labels, arrows, checkerboard, environment, or extra objects.
+- One car only. Use a uniform RGB #00FF00 background to every edge for border-connected cleanup.
+- Crisp hard-edged pixel art only; no blur or antialias haze.
+
+Direction priority:
+The 22.50-degree midpoint and visible separation from both neighbors are more important than decorative variation.

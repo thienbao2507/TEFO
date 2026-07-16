@@ -1,0 +1,32 @@
+AE86 Production32 Step 1E - slot 14 / 292.50 degrees
+
+Use these references as strict visual anchors:
+- Step 1D slot 13 / 303.75 degrees
+- Step 1D slot 15 / 281.25 degrees
+- Step 1D slot 16 / 270.00 degrees Down and the active Down identity anchor
+
+Create one genuinely new pixel-art AE86 hatchback perspective at exactly 292.50 degrees. It must be the missing midpoint between slot 13 and slot 15, not a transformed copy of either neighbor.
+
+Orientation and geometry:
+- The front is the black hood, raised pop-up headlights, yellow front lights, and front bumper.
+- Put the front at lower-right on the canvas.
+- The rear is the hatch, rear glass, red taillights, and rear bumper.
+- Put the rear at upper-left on the canvas.
+- The longitudinal centerline descends from rear upper-left to front lower-right.
+- Show more front bumper width, hood foreshortening, windshield width, and roof symmetry than slot 13.
+- Still show more right-side body, side windows, side trim, and staggered wheels than slot 15.
+- The silhouette must be narrower and taller than slot 13, but wider and less vertical than slot 15.
+- Front wheels and bumper sit lower than rear wheels and hatch.
+
+Identity:
+Preserve the exact compact AE86-inspired hatchback, light-gray body, black hood, black lower trim, dark purple-black windows, dark wheels, pop-up headlight construction, yellow front lights, red rear lights, current roof/window/hatch shapes, gray-purple shading, black pixel outline, pixel density, and gameplay scale.
+
+Negative constraints:
+- Do not become slot 13, slot 15, straight Down, or full 315-degree DownRight.
+- Do not rotate, shear, scale, mirror, trace, or duplicate a neighboring bitmap.
+- No shadow, floor, road, text, labels, arrows, checkerboard, environment, or extra objects.
+- One car only. Use a uniform RGB #00FF00 background to every edge for border-connected cleanup.
+- Crisp hard-edged pixel art only; no blur or antialias haze.
+
+Direction priority:
+The pose must visibly occupy the exact angular midpoint and preserve a smooth 13 -> 14 -> 15 progression at gameplay scale.

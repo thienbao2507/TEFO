@@ -1,0 +1,14 @@
+AE86 ACTIVE PREFAB INTEGRATION BACKUP
+created_or_validated_utc=2026-07-16T01:51:54.2722342Z
+
+original_path=Assets/Prefab/Vehicles/Car_AE86.prefab
+backup_path=Docs/AE86Production32Fix/ActiveIntegrationBackup/Car_AE86_before_AE86_final.prefab
+sha256=7C5B1EF31A18AF492E2CE01FA6F00F92F786ABC78AF0F99E2B5BB126DE7481C0
+file_size=8774
+backup_last_write_utc=2026-07-11T15:36:30.0000000Z
+
+original_path=Assets/Prefab/Vehicles/Car_AE86.prefab.meta
+backup_path=Docs/AE86Production32Fix/ActiveIntegrationBackup/Car_AE86_before_AE86_final.prefab.meta
+sha256=97811AF65F068084477CE7947338CF685335416108C31B80CE76391A87492429
+file_size=154
+backup_last_write_utc=2026-07-08T13:24:28.0000000Z

@@ -1,0 +1,33 @@
+AE86 Production32 Step 1E - slot 09 / 348.75 degrees
+
+Use these references as strict visual anchors:
+- Step 1D slot 08 / 0.00 degrees Right
+- Step 1D slot 10 / 337.50 degrees
+- Step 1D slot 11 / 326.25 degrees and the active Right identity anchor
+
+Create one genuinely new pixel-art AE86 hatchback perspective at exactly 348.75 degrees. It must be the missing midpoint between straight Right and slot 10, not a transformed copy of either neighbor.
+
+Orientation and geometry:
+- The front is the black hood, raised pop-up headlights, yellow front lights, and front bumper.
+- Put the front at right and slightly lower on the canvas.
+- The rear is the hatch, red taillights, and rear bumper.
+- Put the rear at left and slightly higher on the canvas.
+- The longitudinal centerline descends gently from rear upper-left to front lower-right.
+- Keep a mostly horizontal side silhouette with a small but unmistakable Down bias.
+- Show slightly more hood top, windshield top, roof plane, and front-face depth than straight Right.
+- Show clearly less DownRight depth than slot 10.
+- The front wheel center is slightly lower than the rear wheel center.
+
+Identity:
+Preserve the exact compact AE86-inspired hatchback, light-gray body, black hood, black lower trim, dark purple-black windows, dark wheels, pop-up headlight construction, yellow front lights, red rear lights, current roof/window/hatch shapes, gray-purple shading, black pixel outline, pixel density, and gameplay scale.
+
+Negative constraints:
+- Do not become straight Right, slot 10, full 45-degree DownRight, or any UpRight pose.
+- Do not drop the nose too far down.
+- Do not rotate, shear, scale, mirror, trace, or duplicate a neighboring bitmap.
+- No shadow, floor, road, text, labels, arrows, checkerboard, environment, or extra objects.
+- One car only. Use a uniform RGB #00FF00 background to every edge for border-connected cleanup.
+- Crisp hard-edged pixel art only; no blur or antialias haze.
+
+Direction priority:
+The subtle 11.25-degree Down step must remain visible at gameplay scale while staying clearly shallower than slot 10.

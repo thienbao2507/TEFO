@@ -1,0 +1,25 @@
+AE86 Production32 exact-angle sprite generation prompt
+
+TARGET SLOT AND ANGLE
+- sourceSprites17 slot: 6
+- exact heading: 22.50 degrees (0=Right, 90=Up, 270=Down)
+- plain direction: mostly Right with a clear but shallow Up bias
+- previous neighbor: slot 5 at 33.75 degrees
+- next neighbor: slot 7 at 11.25 degrees
+
+STRICT VISUAL RELATIONSHIP
+Create one genuinely new 11.25-degree intermediate pose. It must visually sit between the two named neighbors at gameplay scale. Do not duplicate, rotate, skew, or slightly nudge either neighboring frame. The longitudinal body axis, roof, wheelbase, windshield, hood, and hatch must all support the exact heading.
+
+FRONT AND REAR PLACEMENT
+- front bumper, pop-up headlights, black hood, and nose: upper-right of the canvas; higher than the rear
+- rear hatch, rear bumper, and red taillights: lower-left of the canvas; lower than the front
+- headlights must unambiguously identify the front; taillights must unambiguously identify the rear.
+
+IDENTITY AND CANVAS LOCK
+Match the approved active Production32 AE86 exactly: compact AE86-inspired hatchback, light gray body, black hood, black lower trim, dark windows, black wheels, pop-up headlights, crisp black/purple outline, identical roof/windshield/hatch/bumper/wheel proportions, and identical pixel-art construction. Use a 186x186 RGBA canvas, true transparency, centered projected vehicle body, pivot assumption at canvas center, and tire-contact baseline approximately y=169. Match the apparent vehicle length of the Up, Right, and Down active anchors within 5 percent. Keep body and wheels at one uniform scale.
+
+NEGATIVE CONSTRAINTS
+Do not face Left. Do not reverse front and rear. Do not collapse into either neighboring angle. Do not substitute a coarse 8-direction or 16-direction pose for this exact source slot. Do not mechanically rotate a finished pixel sprite. Do not redesign the car, enlarge only the body, shrink the wheels, change window/hood/hatch proportions, add anti-aliasing, blur, shadows, road, scenery, text, detached pixels, white background, or edge-touching pixels.
+
+DIRECTION PRIORITY
+Exact directional separation and correct front/rear orientation take priority over artistic variation. The result must pass a measured angular error of 4 degrees or less and must preserve the approved AE86 identity.

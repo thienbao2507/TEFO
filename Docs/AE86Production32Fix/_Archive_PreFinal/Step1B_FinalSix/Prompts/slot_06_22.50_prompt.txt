@@ -1,0 +1,39 @@
+AE86 Production32 Step 1B exact-angle external generation prompt
+
+TARGET
+- sourceSprites17 slot: 6
+- exact Unity heading: 22.50 degrees (Right=0, Up=90, Down=270)
+- plain direction: mostly Right with a clear Up bias
+- immediate previous source slot: 5 at 33.75 degrees, status PASS
+- immediate next source slot: 7 at 11.25 degrees, status UNRESOLVED
+- nearest approved previous visual reference: slot 5 at 33.75 degrees
+- nearest approved next visual reference: slot 8 at 0.00 degrees
+
+REFERENCE FILES
+- previous approved sprite: Docs/AE86Production32Fix/Step1_Candidates/PNG/slot_05_33.75_candidate.png
+- next approved sprite: Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_000_00_right.png
+- angle diagram: References/slot_06_22.50_reference.png
+- neighbor triplet: References/slot_06_22.50_neighbor_triplet.png
+
+CURRENT PROBLEM
+No local active-identity source exists at the required shallow Up bias.
+
+FRONT AND REAR PLACEMENT
+- front bumper, black hood, pop-up headlights, and yellow fog lights: upper-right, with the exact Up/Right bias shown by the target arrow
+- rear hatch window, rear bumper, and red taillights: lower-left, exactly opposite the front
+The hood/headlights must resolve the front and the hatch/taillights must resolve the rear. Do not infer direction from silhouette or PCA alone.
+
+PERSPECTIVE RELATIONSHIP
+Render a genuinely new intermediate pose whose hood centerline, windshield slope, roof plane, side-window exposure, wheel alignment, front bumper height, and rear hatch height all sit between the immediate canonical neighbors. It must not duplicate either neighbor, and it must remain visibly distinct at 186px gameplay scale.
+
+IDENTITY LOCK
+Preserve the exact active Production32 AE86-inspired hatchback identity: light gray body, black hood, black lower trim, dark windows, black wheels, pop-up headlights, yellow fog lights, red rear taillights, crisp black/purple pixel outline, and identical roof, hood, windshield, hatch, bumper, and wheel proportions. Match the approved references rather than the unrelated 1254px legacy Body images.
+
+TECHNICAL OUTPUT
+Create exactly one 186x186 RGBA PNG with true transparency. Align tire contact to baseline y=169 and center the projected vehicle without forcing an identical raw bounding box. Projected length must be within 3 percent of interpolated neighbors. Use hard Point-compatible pixel edges, fully opaque foreground pixels, zero edge-touching pixels, one connected foreground component, no crop, and no detached alpha pixels.
+
+NEGATIVE CONSTRAINTS
+No arbitrary bitmap rotation, shear-only fake, smooth resampling, blur, anti-aliased halo, white background, shadow, road, scenery, environment, text, watermark, duplicate neighbor pose, reversed front/rear, UpLeft/DownLeft heading, isolated pixels, or independent resizing of wheels/body/windows/hood.
+
+ACCEPTANCE
+Measured heading error must be 3.00 degrees or less after PCA axis resolution by manual front/rear inspection. Both adjacent clockwise steps should be 8-14 degrees. The final frame must pass manual visual identity, scale, center, baseline, alpha, and artifact review before gameplay replacement.

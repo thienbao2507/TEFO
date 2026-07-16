@@ -1,0 +1,4 @@
+candidate,source_regions_reused,regions_redrawn,changed_opaque_pixels,added_opaque_pixels,removed_opaque_pixels,edited_rect,wheels_redrawn,hood_shortened,roof_rebuilt
+A,palette and identity landmarks only,roof;windshield;hood/front;side windows;near/far wheels;hatch;outline/seams,10374,468,1046,18:84:170:169,True,True,True
+B,palette and identity landmarks only,roof;windshield;hood/front;side windows;near/far wheels;hatch;outline/seams,10872,965,1138,18:79:170:169,True,True,True
+C,palette and identity landmarks only,roof;windshield;hood/front;side windows;near/far wheels;hatch;outline/seams,11341,1434,1193,18:75:170:169,True,True,True

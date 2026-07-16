@@ -1,0 +1,511 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.0/staging' branch; Version is '6000.0.62f1 (f99f05b3e950) revision 16359173'; Using compiler version '193933523'; Build Type 'Release'
+[Licensing::IpcConnector] Channel LicenseClient-ThienBao doesn't exist
+OS: 'Windows 11  (10.0.26200) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 15741 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2026-07-16T00:56:19Z
+[Licensing::Module] Successfully launched the LicensingClient (PId: 24240)
+
+COMMAND LINE ARGUMENTS:
+D:\Program\6000.0.62f1\Editor\Unity.exe
+-batchmode
+-nographics
+-quit
+-projectPath
+D:\myPro\game\TEFO
+-executeMethod
+AE86FinalWorkspaceImportSetup.ApplyFromCommandLine
+-logFile
+D:\myPro\game\TEFO\Docs\AE86Production32Fix\_AE86_final_import_editor.log
+Successfully changed project path to: D:\myPro\game\TEFO
+D:/myPro/game/TEFO
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [27816]  Target information:
+
+Player connection [27816]  * "[IP] 169.254.227.235 [Port] 55504 [Flags] 2 [Guid] 1399913470 [EditorId] 1399913470 [Version] 1048832 [Id] WindowsEditor(7,ThienBaoNe) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [27816]  * "[IP] 21.64.0.7 [Port] 55504 [Flags] 2 [Guid] 1399913470 [EditorId] 1399913470 [Version] 1048832 [Id] WindowsEditor(7,ThienBaoNe) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [27816] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [27816] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-24888" after 0.8 seconds.
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.62f1 (f99f05b3e950)
+[Subsystems] Discovering subsystems at path D:/Program/6000.0.62f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/myPro/game/TEFO/Assets
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Initialize mono
+Mono path[0] = 'D:/Program/6000.0.62f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program/6000.0.62f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program/6000.0.62f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ThienBao" at "2026-07-16T00:56:29.884713Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 24240, path: "D:/Program/6000.0.62f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.2+ff71f16
+  Session Id:              e54c0acceb6d48268b8dc4a54546e824
+  Correlation Id:          a10195a567d1b6eadce24ad9f26290fd
+  External correlation Id: 2040665865086535558
+  Machine Id:              I0qsWkULXMkyGsrNf5MSqdLDWcE=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ThienBao" (connect: 9.85s, validation: 0.65s, handshake: 0.53s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ThienBao-notifications" at "2026-07-16T00:56:31.0692792Z"
+[Licensing::Module] Connected to LicensingClient (PId: 24240, launch time: 0.07, total connection time: 11.04s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968349489754-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.03
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 11.20s
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program/6000.0.62f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: D:/Program/6000.0.62f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: D:/Program/6000.0.62f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.014399 seconds.
+- Loaded All Assemblies, in 17.984 seconds
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.683 seconds
+Domain Reload Profiling: 18668ms
+	BeginReloadAssembly (13282ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (8ms)
+	RebuildCommonClasses (1110ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (3497ms)
+		LoadAssemblies (13290ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (3462ms)
+			TypeCache.Refresh (3453ms)
+				TypeCache.ScanAssembly (2873ms)
+			BuildScriptInfoCaches (1ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (685ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (630ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (265ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (166ms)
+			ProcessInitializeOnLoadMethodAttributes (121ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+Package Manager log level set to [2]
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 65 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.collab-proxy@2.10.0 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.collab-proxy@1e5e48aff19d)
+    com.unity.ide.rider@3.0.38 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.25 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.ide.visualstudio@74aa435fc4bb)
+    com.unity.inputsystem@1.14.2 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.inputsystem@be6c4fd0abf5)
+    com.unity.timeline@1.8.9 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.timeline@6b9e48457ddb)
+    com.unity.visualscripting@1.9.7 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.visualscripting@6279e2b7c485)
+    com.unity.2d.animation@10.2.1 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.2d.animation@81ad133dbdf1)
+    com.unity.2d.pixel-perfect@5.0.3 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.2d.pixel-perfect@e3ae982b672d)
+    com.unity.2d.psdimporter@9.1.0 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.2d.psdimporter@e0ffc26deb40)
+    com.unity.2d.spriteshape@10.0.7 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.2d.spriteshape@9e35352ae135)
+    com.unity.2d.tilemap.extras@4.1.0 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.2d.tilemap.extras@13634da7dbe0)
+    com.unity.2d.aseprite@1.1.10 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.2d.aseprite@dba7c65ef731)
+    com.unity.searcher@4.9.3 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.searcher@1e17ce91558d)
+    com.unity.burst@1.8.25 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.burst@1df634d836b8)
+    com.unity.mathematics@1.3.2 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.mathematics@8017b507cc74)
+    com.unity.collections@2.6.2 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.collections@aea9d3bd5e19)
+    com.unity.2d.common@9.1.1 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.2d.common@bc041c6e0d0d)
+    com.unity.nuget.mono-cecil@1.11.5 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.nuget.mono-cecil@d78732e851eb)
+    com.unity.test-framework.performance@3.2.0 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.test-framework.performance@0840f58e4562)
+  Built-in packages:
+    com.unity.feature.2d@2.0.1 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.feature.2d@dd1ea8910f12)
+    com.unity.multiplayer.center@1.0.0 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546)
+    com.unity.render-pipelines.universal@17.0.4 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.render-pipelines.universal@7652a5c7e246)
+    com.unity.test-framework@1.6.0 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.test-framework@da1fb3d479aa)
+    com.unity.ugui@2.0.0 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.ugui@befc7af3e8e5)
+    com.unity.modules.accessibility@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.accessibility)
+    com.unity.modules.ai@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d)
+    com.unity.modules.screencapture@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vehicles@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video)
+    com.unity.modules.vr@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr)
+    com.unity.modules.wind@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.0.5 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.ext.nunit@031a54704bff)
+    com.unity.render-pipelines.core@17.0.4 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.render-pipelines.core@3b8a69964696)
+    com.unity.shadergraph@17.0.4 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.shadergraph@ed1bdfe1a012)
+    com.unity.render-pipelines.universal-config@17.0.3 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.render-pipelines.universal-config@dd206bf35d04)
+    com.unity.2d.sprite@1.0.0 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.2d.sprite@897b7eecf04e)
+    com.unity.2d.tilemap@1.0.0 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.2d.tilemap@e147c8eadabf)
+    com.unity.rendering.light-transport@1.0.1 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.rendering.light-transport@9bd588f963c0)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.02 seconds
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+Starting: D:\Program\6000.0.62f1\Editor\Data\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: D:/myPro/game/TEFO
+DisplayProgressbar: Compiling Scripts
+ExitCode: 4 Duration: 0s561ms
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/1900b0aE-inputdata.json
+*** Tundra requires additional run (0.40 seconds), 0 items updated, 541 evaluated
+Starting: D:\Program\6000.0.62f1\Editor\Data\Tools\netcorerun\netcorerun.exe "D:\Program\6000.0.62f1\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1900b0aE.dag.json" "Library/Bee/1900b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: D:/myPro/game/TEFO
+ExitCode: 0 Duration: 7s706ms
+Starting: D:\Program\6000.0.62f1\Editor\Data\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\1900b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: D:/myPro/game/TEFO
+ExitCode: 0 Duration: 11s
+Finished compiling graph: 1004 nodes, 18494 flattened edges (15058 ToBuild, 160 ToUse), maximum node priority 1150
+[ 539/1001  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp
+[ 777/1001  1s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[ 997/1001  6s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+Assets\Editor\TEFOMapLayerSetupTool.cs(191,9): warning CS0618: 'Collider2D.usedByComposite' is obsolete: 'usedByComposite has been deprecated. Use Collider2D.compositeOperation instead'
+
+Assets\Editor\TEFOReferenceWorldMapBuilder.cs(221,17): warning CS0618: 'Collider2D.usedByComposite' is obsolete: 'usedByComposite has been deprecated. Use Collider2D.compositeOperation instead'
+
+Assets\Editor\TEFOSmallMapRebuildTool.cs(530,17): warning CS0618: 'Collider2D.usedByComposite' is obsolete: 'usedByComposite has been deprecated. Use Collider2D.compositeOperation instead'
+[ 998/1001  3s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll, with 126 defines and 337 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[ 999/1001  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+[1000/1001  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+*** Tundra build success (11.73 seconds), 6 items updated, 1001 evaluated
+Assets\Editor\TEFOMapLayerSetupTool.cs(191,9): warning CS0618: 'Collider2D.usedByComposite' is obsolete: 'usedByComposite has been deprecated. Use Collider2D.compositeOperation instead'
+Assets\Editor\TEFOReferenceWorldMapBuilder.cs(221,17): warning CS0618: 'Collider2D.usedByComposite' is obsolete: 'usedByComposite has been deprecated. Use Collider2D.compositeOperation instead'
+Assets\Editor\TEFOSmallMapRebuildTool.cs(530,17): warning CS0618: 'Collider2D.usedByComposite' is obsolete: 'usedByComposite has been deprecated. Use Collider2D.compositeOperation instead'
+AssetDatabase: script compilation time: 30.865913s
+Begin MonoManager ReloadAssembly
+Total cache size 62506928
+Total cache size after purge 62506928, took 00:00:00.2222472
+- Loaded All Assemblies, in  4.857 seconds
+Start importing Assets/Art/Vehicles/AE86_final using Guid(e0475f0cbdf0a2c45a745a470c6335d2) (DefaultImporter) -> (artifact id: '014c010feb4fd161d85937f1cc302162') in 0.0544332 seconds
+Start importing Assets/Art/Vehicles/AE86_final/References using Guid(b11641c89cc541c499136a0b6f142909) (DefaultImporter) -> (artifact id: '83809913d05839bda5331e0abbdd14a8') in 0.0161951 seconds
+Start importing Assets/Art/Vehicles/AE86_final/Reports using Guid(d7a9a6401f217f141a94060f098ab76f) (DefaultImporter) -> (artifact id: 'ce0c1feeed9249273889c304c91c8059') in 0.0058598 seconds
+Start importing Assets/Art/Vehicles/AE86_final/ManualSlot07 using Guid(e81bc10b01afcf54cb0db1f1cd77bc6a) (DefaultImporter) -> (artifact id: 'b0788d0cd2bcddef7f284762a46276d8') in 0.0062033 seconds
+Start importing Assets/Art/Vehicles/AE86_final/Current17 using Guid(8ede6c6108596de4a91e26acdf430848) (DefaultImporter) -> (artifact id: '770930f91e03cc7dc1a224ae505a81bd') in 0.0072004 seconds
+Start importing Assets/Art/Vehicles/AE86_final/Reports/Editor using Guid(ace8e19147d95e54c823b2b0e063e6d1) (DefaultImporter) -> (artifact id: 'fa3e21d22e0599fa41ddb3ced3bb768e') in 0.0060362 seconds
+Refreshing native plugins compatible for Editor in 11.24 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.195 seconds
+Domain Reload Profiling: 9048ms
+	BeginReloadAssembly (366ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (4409ms)
+		LoadAssemblies (3447ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1159ms)
+			TypeCache.Refresh (1086ms)
+				TypeCache.ScanAssembly (1062ms)
+			BuildScriptInfoCaches (52ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (4195ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3861ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (53ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (219ms)
+			ProcessInitializeOnLoadAttributes (3345ms)
+			ProcessInitializeOnLoadMethodAttributes (232ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Start importing Assets/Art/Vehicles/AE86_final/Reports/protected_assets_before.sha256 using Guid(4787cb16888e0d043a551fdb0891c2fc) (DefaultImporter) -> (artifact id: '4e8bd87bb42d2a9354cd0fca2dbc842d') in 0.0836701 seconds
+Start importing Assets/Art/Vehicles/AE86_final/Current17/03_056.25.png using Guid(201e1ca7c3a30c848be1c1792fad9d1d) (TextureImporter) -> (artifact id: '02a0bbb96e5d01e49ca71ab07ffeef87') in 0.1068323 seconds
+Start importing Assets/Art/Vehicles/AE86_final/Current17/05_033.75.png using Guid(01006d7edd65f0242860f2fcb73bc72d) (TextureImporter) -> (artifact id: 'dc4f3bab10b1db4acc126cfdc8c44d5b') in 0.0208508 seconds
+Start importing Assets/Art/Vehicles/AE86_final/Current17/16_270.00_down.png using Guid(8144cbcb7a913e64dad1503f55a8e0f2) (TextureImporter) -> (artifact id: '17bfed69ad78bb6ef1bf549e263c7895') in 0.0203499 seconds
+Start importing Assets/Art/Vehicles/AE86_final/Current17/02_067.50.png using Guid(b111cb0cdd914fb499cd316db3a56ac2) (TextureImporter) -> (artifact id: '1a354e159e591263d203d1d543d04210') in 0.0172141 seconds
+Start importing Assets/Art/Vehicles/AE86_final/Current17/04_045.00_upright.png using Guid(c1d666340d26d7f438abb2a343abb6be) (TextureImporter) -> (artifact id: 'e814f1b383ee41f02e5009823f759397') in 0.0177062 seconds
+Start importing Assets/Art/Vehicles/AE86_final/References/slot06_slot07_right_comparison.png using Guid(322b448f22dee804aba40b323ef2c19b) (TextureImporter) -> (artifact id: '4076198d3921643def70181968ca31a4') in 0.0863338 seconds
+Start importing Assets/Art/Vehicles/AE86_final/Current17/01_078.75.png using Guid(324cc02730e15934f8b72e22d67bbf04) (TextureImporter) -> (artifact id: 'db905abf6e0d2b44f04404bd161ef15c') in 0.0211391 seconds
+Start importing Assets/Art/Vehicles/AE86_final/Current17/08_000.00_right.png using Guid(8254b8dd3b29f0c4e854a24689fb871d) (TextureImporter) -> (artifact id: 'fdba38ee5d58f6334a80975981597801') in 0.0183804 seconds
+Start importing Assets/Art/Vehicles/AE86_final/Current17/10_337.50.png using Guid(a407871f24fe4a346a81b0bf81c89112) (TextureImporter) -> (artifact id: '5e237f8bea7a88ebfa65d5fe6aa762cb') in 0.0207614 seconds
+Start importing Assets/Art/Vehicles/AE86_final/Current17/06_022.50.png using Guid(a601a8874b1f5bb438a0d6192652dd5c) (TextureImporter) -> (artifact id: '2d202d6d4d0ba013e92c50874aaeb129') in 0.0228959 seconds
+Start importing Assets/Art/Vehicles/AE86_final/Current17/15_281.25.png using Guid(27e5ae5569f982d4d942cc3596190394) (TextureImporter) -> (artifact id: '86ae96fcdc8d6e13bf666b2e7a494a71') in 0.0245944 seconds
+Start importing Assets/Art/Vehicles/AE86_final/ManualSlot07/01_prev_slot06_22.50.png using Guid(3822f0f871987b14f824544ee765933d) (TextureImporter) -> (artifact id: 'fc2c62d80ccd08b100fb230f5324e802') in 0.0259505 seconds
+Start importing Assets/Art/Vehicles/AE86_final/ManualSlot07/02_working_slot07_11.25.png using Guid(48f11f4e26398d043ab60b05725f38aa) (TextureImporter) -> (artifact id: '752f38c918027a3f2be09c94f250848b') in 0.0147182 seconds
+Start importing Assets/Art/Vehicles/AE86_final/References/step1h_runtime_reference_NOT_FINAL.png using Guid(6837d924989511c48b0f01cabd66d450) (TextureImporter) -> (artifact id: '00c889b0ef4d14a29ce9b96a351fb3e8') in 0.0352797 seconds
+Start importing Assets/Art/Vehicles/AE86_final/Current17/12_315.00_downright.png using Guid(e830d832f68e16b4081bc55826eaed61) (TextureImporter) -> (artifact id: 'b2f58f45451ffee7e4006d17295efff6') in 0.0133774 seconds
+Start importing Assets/Art/Vehicles/AE86_final/Current17/13_303.75.png using Guid(29bb9762cd7c7624cb2e22e186dd77e3) (TextureImporter) -> (artifact id: 'bb6fcdb67bbc126053a7d4797a3888b6') in 0.0139689 seconds
+Start importing Assets/Art/Vehicles/AE86_final/References/step1f_17_source_contact_sheet.png using Guid(daab637dbf6f407449d7ee6dfd317501) (TextureImporter) -> (artifact id: 'fb2301557acb0db57ad41322c856d1fc') in 0.1557881 seconds
+Start importing Assets/Art/Vehicles/AE86_final/References/step1f_full32_preview.png using Guid(2b4599c65a61bd84685d1b8b7b1c69d5) (TextureImporter) -> (artifact id: 'af90afda5c00aeafefca5737b9085c95') in 0.2073141 seconds
+Start importing Assets/Art/Vehicles/AE86_final/Current17/00_090.00_up.png using Guid(2cf6ba6491688ea42b07ec503c90b1d5) (TextureImporter) -> (artifact id: 'aeb46e9dfac16288311ed87f7f3f1f7b') in 0.0289151 seconds
+Start importing Assets/Art/Vehicles/AE86_final/ManualSlot07/03_next_slot08_right.png using Guid(3c1569ba8160b6c44895d30b903eb6f9) (TextureImporter) -> (artifact id: 'bc77dc1c3cab1708142f100296b17bed') in 0.0234093 seconds
+Start importing Assets/Art/Vehicles/AE86_final/Current17/11_326.25.png using Guid(ac549a82fadf6f647b6ab96c040a067a) (TextureImporter) -> (artifact id: '84a756329284c592ff9f3acb594a9e33') in 0.0165753 seconds
+Start importing Assets/Art/Vehicles/AE86_final/Current17/07_011.25_WORKING.png using Guid(acf4335321c3a85438aa221a7bed76e6) (TextureImporter) -> (artifact id: '95de4ddaa0b80e23c458e8e7cca44ea2') in 0.0193923 seconds
+Start importing Assets/Art/Vehicles/AE86_final/Current17/09_348.75.png using Guid(bce1d1e9851fcdb45b8cdcc7b2a53cee) (TextureImporter) -> (artifact id: '8aea2f602ea57cdeddb923fd8ff4b988') in 0.0291158 seconds
+Start importing Assets/Art/Vehicles/AE86_final/Current17/14_292.50.png using Guid(3e6578ada4c56874789214c6742812bc) (TextureImporter) -> (artifact id: 'fa284a388beda8090e6a79af423567f0') in 0.0204502 seconds
+Start importing Assets/Art/Vehicles/AE86_final/References/step1g_imported_full32_preview.png using Guid(2f8b995d6e705c343a769eb5c289a303) (TextureImporter) -> (artifact id: '43a4c1f00e67cf09df460efcbde7aa99') in 0.192084 seconds
+Start importing Assets/Art/Vehicles/AE86_final/ManualSlot07/README.md using Guid(b7fbd55538c80784aa8af7265928b223) (TextScriptImporter) -> (artifact id: '34aa4bfde826c92de59417d2dce9436f') in 0.0128635 seconds
+Start importing Assets/Art/Vehicles/AE86_final/Reports/AE86_final_manifest.csv using Guid(f81bf2b3d565ad743b1813cffb99879c) (TextScriptImporter) -> (artifact id: '9e6c1798f8be861827c9f305f53e15a6') in 0.0077376 seconds
+Start importing Assets/Art/Vehicles/AE86_final/Reports/AE86_final_readme.md using Guid(ae32acb3040673548a3afe9db765fb1e) (TextScriptImporter) -> (artifact id: 'b0af9d33f6c119257853495617791c4d') in 0.0080776 seconds
+Start importing Assets/Art/Vehicles/AE86_final/Reports/cleanup_inventory.csv using Guid(0fde85b28a9e9074e9643c476945ec07) (TextScriptImporter) -> (artifact id: '5275b943ce6fdc5132a59c2d3469bc19') in 0.0089112 seconds
+Refreshing native plugins compatible for Editor in 8.33 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=714448601117cd04ebacd78c757a142e): Total: 43.991 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=35 (actual=35, local cache=0, cache server=0)
+		Asset DB Process Time: managed=148 ms, native=7358 ms
+		Asset DB Callback time: managed=599 ms, native=65 ms
+		Scripting: domain reloads=1, domain reload time=4858 ms, compile time=30869 ms, other=91 ms
+		Project Asset Count: scripts=1545, non-scripts=4277
+		Asset File Changes: new=37, changed=37, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.002ms
+	InvokePackagesCallback: 46.116ms
+	ApplyChangesToAssetFolders: 1.487ms
+	Scan: 890.342ms
+	OnSourceAssetsModified: 3.519ms
+	CategorizeAssetsWithTransientArtifact: 111.796ms
+	ProcessAssetsWithTransientArtifactChanges: 127.805ms
+	CategorizeAssets: 263.589ms
+	ImportOutOfDateAssets: 5704.392ms (-26640.350ms without children)
+		ImportManagerImport: 1469.249ms (11.593ms without children)
+			ImportInProcess: 1457.037ms
+			UpdateCategorizedAssets: 0.619ms
+		CompileScripts: 30869.182ms
+		ReloadNativeAssets: 0.139ms
+		UnloadImportedAssets: 1.661ms
+		ReloadImportedAssets: 0.015ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 2.552ms
+		InitializingProgressBar: 0.036ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.002ms
+		OnDemandSchedulerStart: 1.905ms
+	PostProcessAllAssets: 601.857ms
+	Hotreload: 15.687ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.003ms
+	UnloadStreamsBegin: 1.751ms
+	PersistCurrentRevisions: 1.463ms
+	UnloadStreamsEnd: 0.004ms
+	GenerateScriptTypeHashes: 6.140ms
+	Untracked: 36221.221ms
+
+Application.AssetDatabase Initial Refresh End
+Scanning for USB devices : 37.630ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-My project (1)
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6782 unused Assets / (3.6 MB). Loaded Objects now: 7519.
+Memory consumption went from 210.2 MB to 206.6 MB.
+Total: 31.001900 ms (FindLiveObjects: 2.111900 ms CreateObjectMapping: 2.315900 ms MarkObjects: 19.195900 ms  DeleteObjects: 7.372200 ms)
+
+Asset Pipeline Refresh (id=b2b611ad8447f364799f039cad9b89ae): Total: 0.185 seconds - Initiated by RefreshV2(ForceUpdate)
+Start importing Assets/Art/Vehicles/AE86_final/Current17/00_090.00_up.png using Guid(2cf6ba6491688ea42b07ec503c90b1d5) (TextureImporter) -> (artifact id: '23e5afbe73fd0aa1dd31948278e55a07') in 0.0237904 seconds
+Refreshing native plugins compatible for Editor in 2.38 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=cbf8d9aa7f3afe746a03681cb0e643cc): Total: 0.174 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Art/Vehicles/AE86_final/Current17/01_078.75.png using Guid(324cc02730e15934f8b72e22d67bbf04) (TextureImporter) -> (artifact id: 'e11f565309dfbb87dd0c119ae33d2f23') in 0.0182439 seconds
+Refreshing native plugins compatible for Editor in 2.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=ad1ed4e809db90744904e6373e21bb91): Total: 0.147 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Art/Vehicles/AE86_final/Current17/02_067.50.png using Guid(b111cb0cdd914fb499cd316db3a56ac2) (TextureImporter) -> (artifact id: '8c2803025087fcdfc411f682295eafc0') in 0.0189896 seconds
+Refreshing native plugins compatible for Editor in 2.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=b91f7cec87698274bae075681b03e450): Total: 0.145 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Art/Vehicles/AE86_final/Current17/03_056.25.png using Guid(201e1ca7c3a30c848be1c1792fad9d1d) (TextureImporter) -> (artifact id: 'bd1fa2092a76271fd5954f99bf3a7286') in 0.0173825 seconds
+Refreshing native plugins compatible for Editor in 3.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=ec9d211a3f393204a80efcfd7e38f388): Total: 0.145 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Art/Vehicles/AE86_final/Current17/04_045.00_upright.png using Guid(c1d666340d26d7f438abb2a343abb6be) (TextureImporter) -> (artifact id: '96efdb36485de5f9ea23726a8d9639e7') in 0.0193477 seconds
+Refreshing native plugins compatible for Editor in 4.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=7818de094fa72974f80e2201c5f44a16): Total: 0.151 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Art/Vehicles/AE86_final/Current17/05_033.75.png using Guid(01006d7edd65f0242860f2fcb73bc72d) (TextureImporter) -> (artifact id: 'd40b77a998d9845ec449b3eeaebb97c4') in 0.0244097 seconds
+Refreshing native plugins compatible for Editor in 3.32 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=c5bd89a0476cfba499968b72f19c6002): Total: 0.148 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Art/Vehicles/AE86_final/Current17/06_022.50.png using Guid(a601a8874b1f5bb438a0d6192652dd5c) (TextureImporter) -> (artifact id: 'c4b5a88004c0862741e122f30273c2d3') in 0.0225331 seconds
+Refreshing native plugins compatible for Editor in 2.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=4780c544278fd4b45befabe430997446): Total: 0.151 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Art/Vehicles/AE86_final/Current17/07_011.25_WORKING.png using Guid(acf4335321c3a85438aa221a7bed76e6) (TextureImporter) -> (artifact id: '3afdd5b7e01d993c2d2a440cd06c21af') in 0.021279 seconds
+Refreshing native plugins compatible for Editor in 2.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=5c61478eff5c3eb4fb01084abc5475ea): Total: 0.149 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Art/Vehicles/AE86_final/Current17/08_000.00_right.png using Guid(8254b8dd3b29f0c4e854a24689fb871d) (TextureImporter) -> (artifact id: '0051f3e4f5bd1ab3d1cae9781f21d554') in 0.0190559 seconds
+Refreshing native plugins compatible for Editor in 1.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=7312e6fe52662b84da8d66db1c301cd9): Total: 0.159 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Art/Vehicles/AE86_final/Current17/09_348.75.png using Guid(bce1d1e9851fcdb45b8cdcc7b2a53cee) (TextureImporter) -> (artifact id: '37ad2ebb07f9fb308100cc8794dc5fd7') in 0.018622 seconds
+Refreshing native plugins compatible for Editor in 2.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=8dfee74e6e606f34287ca72ff0aa91ce): Total: 0.147 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Art/Vehicles/AE86_final/Current17/10_337.50.png using Guid(a407871f24fe4a346a81b0bf81c89112) (TextureImporter) -> (artifact id: '6e33621c3c4da9ea6eb951fc35828415') in 0.0170403 seconds
+Curl error 7: Failed to connect to config.uca.cloud.unity3d.com port 443 after 2114 ms: Could not connect to server
+Refreshing native plugins compatible for Editor in 1.41 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=14b09a9098559ec4dae5ccb842cba834): Total: 0.139 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Art/Vehicles/AE86_final/Current17/11_326.25.png using Guid(ac549a82fadf6f647b6ab96c040a067a) (TextureImporter) -> (artifact id: '16d2fad13d46411839ed6607ced7c386') in 0.0211773 seconds
+Refreshing native plugins compatible for Editor in 2.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=f7ebb97a62d53f844bd982871e37d623): Total: 0.187 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Art/Vehicles/AE86_final/Current17/12_315.00_downright.png using Guid(e830d832f68e16b4081bc55826eaed61) (TextureImporter) -> (artifact id: '2722e14cad57b0ad897e873f2718f693') in 0.0193109 seconds
+Refreshing native plugins compatible for Editor in 3.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=642ac00752af4374aace0b627d1303c0): Total: 0.147 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Art/Vehicles/AE86_final/Current17/13_303.75.png using Guid(29bb9762cd7c7624cb2e22e186dd77e3) (TextureImporter) -> (artifact id: 'afc6108e75372618ec18e9f7f2ea0554') in 0.0153747 seconds
+Refreshing native plugins compatible for Editor in 2.16 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=b981c70812101384fbbe40e72c030bce): Total: 0.129 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Art/Vehicles/AE86_final/Current17/14_292.50.png using Guid(3e6578ada4c56874789214c6742812bc) (TextureImporter) -> (artifact id: 'bd07634709c76441a45ef54d6ca8137f') in 0.0207853 seconds
+Refreshing native plugins compatible for Editor in 2.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=71b45ef9f37b4f24e9c4fed23567353f): Total: 0.137 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Art/Vehicles/AE86_final/Current17/15_281.25.png using Guid(27e5ae5569f982d4d942cc3596190394) (TextureImporter) -> (artifact id: '27759e0cec0b7f711c81137e6ebb1604') in 0.0187948 seconds
+Refreshing native plugins compatible for Editor in 1.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=52e069fcd302db5488c684e26565e74a): Total: 0.135 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Art/Vehicles/AE86_final/Current17/16_270.00_down.png using Guid(8144cbcb7a913e64dad1503f55a8e0f2) (TextureImporter) -> (artifact id: '3bbff9626a83900c31247246badd00ed') in 0.0259419 seconds
+Refreshing native plugins compatible for Editor in 2.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=6eceefd11548d8245af0559002219ef4): Total: 0.156 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Art/Vehicles/AE86_final/ManualSlot07/01_prev_slot06_22.50.png using Guid(3822f0f871987b14f824544ee765933d) (TextureImporter) -> (artifact id: 'a8193a979e58b8725b527526d0b1e67d') in 0.0196558 seconds
+Refreshing native plugins compatible for Editor in 2.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=3182f91af3fbc66499f992f2b3624564): Total: 0.145 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Art/Vehicles/AE86_final/ManualSlot07/02_working_slot07_11.25.png using Guid(48f11f4e26398d043ab60b05725f38aa) (TextureImporter) -> (artifact id: '977346d793736f23f53ce7f54f91a91b') in 0.0200335 seconds
+Refreshing native plugins compatible for Editor in 2.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=57ade9dee324bea4bb1c1adc4b9ba2ca): Total: 0.138 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Art/Vehicles/AE86_final/ManualSlot07/03_next_slot08_right.png using Guid(3c1569ba8160b6c44895d30b903eb6f9) (TextureImporter) -> (artifact id: '34c6285b9163a4217dbbc6d099188f55') in 0.0287871 seconds
+Refreshing native plugins compatible for Editor in 3.13 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=7169eec972452ac4bab0f44a5f57aaec): Total: 0.160 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=1caeee6f0838fdd469c3c44d2325bdfc): Total: 0.050 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+AE86_FINAL_IMPORT_READY
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+AE86FinalWorkspaceImportSetup:ApplyFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86FinalWorkspaceImportSetup.cs:70)
+
+(Filename: Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86FinalWorkspaceImportSetup.cs Line: 70)
+
+Batchmode quit successfully invoked - shutting down!
+[Physics::Module] Cleanup current backned.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-ThienBao-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-ThienBao channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+Exiting batchmode successfully now!
+Exiting without the bug reporter. Application will terminate with return code 0

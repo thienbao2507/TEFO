@@ -1,0 +1,7 @@
+slot,target_angle,estimated_actual_angle,angular_error,source_method,canvas_width,canvas_height,bbox_x,bbox_y,bbox_width,bbox_height,centroid_x,centroid_y,projected_length,projected_width,alpha_pixel_count,scale_difference_percent,center_offset_x,center_offset_y,baseline,edge_touch_count,previous_delta,next_delta,status,recommended_action
+1,78.75,74.37,4.38,"Step 1 re-extraction; external package prepared",186,186,40,18,106,152,93.52,95.21,152.91,91.54,11663,-0.27,0.59,-3.58,169,0,15.28,10.64,"REVIEW","Generate a new 78.75-degree pose; current 74.37-degree frame is reference-only."
+6,22.50,,,"External generation required",186,186,,,,,,,,,,,,,,,,,"UNRESOLVED","Generate a new exact 22.50-degree source."
+7,11.25,,,"External generation required",186,186,,,,,,,,,,,,,,,,,"UNRESOLVED","Generate a new exact 11.25-degree source visibly distinct from Right."
+9,348.75,,,"External generation required",186,186,,,,,,,,,,,,,,,,,"UNRESOLVED","Generate a new exact 348.75-degree source visibly distinct from Right."
+14,292.50,299.20,6.70,"Step 1 candidate rejected; external package prepared",186,186,35,26,117,144,91.90,97.82,154.54,81.88,10247,0.45,-1.18,-5.81,169,0,7.96,13.05,"UNRESOLVED","Reject the 299.20-degree attempt and generate a new 292.50-degree pose."
+15,281.25,286.15,4.90,"Step 1 flip; external package prepared",186,186,44,19,98,151,92.11,94.20,154.29,81.08,10442,0.23,-1.30,-4.51,169,0,13.05,16.18,"REVIEW","Generate a new 281.25-degree pose; current 286.15-degree frame is reference-only."

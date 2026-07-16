@@ -1,0 +1,939 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.0/staging' branch; Version is '6000.0.62f1 (f99f05b3e950) revision 16359173'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 15741 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+[Licensing::IpcConnector] Channel LicenseClient-ThienBao doesn't exist
+Date: 2026-07-16T01:29:46Z
+[Licensing::Module] Successfully launched the LicensingClient (PId: 15576)
+
+COMMAND LINE ARGUMENTS:
+D:\Program\6000.0.62f1\Editor\Unity.exe
+-batchmode
+-nographics
+-quit
+-projectPath
+D:\myPro\game\TEFO
+-executeMethod
+AE86ActivePrefabIntegrationTool.RunFromCommandLine
+-logFile
+D:\myPro\game\TEFO\Assets\Art\Vehicles\AE86_final\Reports\active_prefab_integration_unity.log
+Successfully changed project path to: D:\myPro\game\TEFO
+D:/myPro/game/TEFO
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [3348]  Target information:
+
+Player connection [3348]  * "[IP] 169.254.227.235 [Port] 55504 [Flags] 2 [Guid] 3714024577 [EditorId] 3714024577 [Version] 1048832 [Id] WindowsEditor(7,ThienBaoNe) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [3348]  * "[IP] 192.168.1.5 [Port] 55504 [Flags] 2 [Guid] 3714024577 [EditorId] 3714024577 [Version] 1048832 [Id] WindowsEditor(7,ThienBaoNe) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [3348] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [3348] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-14396" after 1.0 seconds.
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 5.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.62f1 (f99f05b3e950)
+[Subsystems] Discovering subsystems at path D:/Program/6000.0.62f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/myPro/game/TEFO/Assets
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Initialize mono
+Mono path[0] = 'D:/Program/6000.0.62f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program/6000.0.62f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program/6000.0.62f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ThienBao" at "2026-07-16T01:29:56.8454903Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 15576, path: "D:/Program/6000.0.62f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.2+ff71f16
+  Session Id:              71dfcbaeb93846058213499305e870d2
+  Correlation Id:          22f915c1909d3ade63254a3db7daef95
+  External correlation Id: 4270375265534055061
+  Machine Id:              I0qsWkULXMkyGsrNf5MSqdLDWcE=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ThienBao" (connect: 9.85s, validation: 0.61s, handshake: 0.10s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ThienBao-notifications" at "2026-07-16T01:29:57.557486Z"
+[Licensing::Module] Connected to LicensingClient (PId: 15576, launch time: 0.07, total connection time: 10.56s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968349489754-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.03
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 10.71s
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program/6000.0.62f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: D:/Program/6000.0.62f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: D:/Program/6000.0.62f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 1.364334 seconds.
+- Loaded All Assemblies, in 24.077 seconds
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.787 seconds
+Domain Reload Profiling: 24865ms
+	BeginReloadAssembly (17742ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (9ms)
+	RebuildCommonClasses (1196ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (1441ms)
+	LoadAllAssembliesAndSetupDomain (3685ms)
+		LoadAssemblies (17750ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (3651ms)
+			TypeCache.Refresh (3644ms)
+				TypeCache.ScanAssembly (3187ms)
+			BuildScriptInfoCaches (1ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (789ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (745ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (388ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (183ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+Package Manager log level set to [2]
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 65 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.collab-proxy@2.10.0 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.collab-proxy@1e5e48aff19d)
+    com.unity.ide.rider@3.0.38 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.25 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.ide.visualstudio@74aa435fc4bb)
+    com.unity.inputsystem@1.14.2 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.inputsystem@be6c4fd0abf5)
+    com.unity.timeline@1.8.9 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.timeline@6b9e48457ddb)
+    com.unity.visualscripting@1.9.7 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.visualscripting@6279e2b7c485)
+    com.unity.2d.animation@10.2.1 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.2d.animation@81ad133dbdf1)
+    com.unity.2d.pixel-perfect@5.0.3 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.2d.pixel-perfect@e3ae982b672d)
+    com.unity.2d.psdimporter@9.1.0 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.2d.psdimporter@e0ffc26deb40)
+    com.unity.2d.spriteshape@10.0.7 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.2d.spriteshape@9e35352ae135)
+    com.unity.2d.tilemap.extras@4.1.0 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.2d.tilemap.extras@13634da7dbe0)
+    com.unity.2d.aseprite@1.1.10 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.2d.aseprite@dba7c65ef731)
+    com.unity.searcher@4.9.3 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.searcher@1e17ce91558d)
+    com.unity.burst@1.8.25 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.burst@1df634d836b8)
+    com.unity.mathematics@1.3.2 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.mathematics@8017b507cc74)
+    com.unity.collections@2.6.2 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.collections@aea9d3bd5e19)
+    com.unity.2d.common@9.1.1 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.2d.common@bc041c6e0d0d)
+    com.unity.nuget.mono-cecil@1.11.5 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.nuget.mono-cecil@d78732e851eb)
+    com.unity.test-framework.performance@3.2.0 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.test-framework.performance@0840f58e4562)
+  Built-in packages:
+    com.unity.feature.2d@2.0.1 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.feature.2d@dd1ea8910f12)
+    com.unity.multiplayer.center@1.0.0 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546)
+    com.unity.render-pipelines.universal@17.0.4 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.render-pipelines.universal@7652a5c7e246)
+    com.unity.test-framework@1.6.0 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.test-framework@da1fb3d479aa)
+    com.unity.ugui@2.0.0 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.ugui@befc7af3e8e5)
+    com.unity.modules.accessibility@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.accessibility)
+    com.unity.modules.ai@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d)
+    com.unity.modules.screencapture@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vehicles@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video)
+    com.unity.modules.vr@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr)
+    com.unity.modules.wind@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: D:\Program\6000.0.62f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.0.5 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.ext.nunit@031a54704bff)
+    com.unity.render-pipelines.core@17.0.4 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.render-pipelines.core@3b8a69964696)
+    com.unity.shadergraph@17.0.4 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.shadergraph@ed1bdfe1a012)
+    com.unity.render-pipelines.universal-config@17.0.3 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.render-pipelines.universal-config@dd206bf35d04)
+    com.unity.2d.sprite@1.0.0 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.2d.sprite@897b7eecf04e)
+    com.unity.2d.tilemap@1.0.0 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.2d.tilemap@e147c8eadabf)
+    com.unity.rendering.light-transport@1.0.1 (location: D:\myPro\game\TEFO\Library\PackageCache\com.unity.rendering.light-transport@9bd588f963c0)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.03 seconds
+'Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log' Amount of processed bytes '18941' does not match file size '7736'
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+Starting: D:\Program\6000.0.62f1\Editor\Data\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: D:/myPro/game/TEFO
+DisplayProgressbar: Compiling Scripts
+Starting: D:\Program\6000.0.62f1\Editor\Data\Tools\netcorerun\netcorerun.exe "D:\Program\6000.0.62f1\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1900b0aE.dag.json" "Library/Bee/1900b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: D:/myPro/game/TEFO
+ExitCode: 4 Duration: 0s573ms
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/1900b0aE-inputdata.json
+*** Tundra requires additional run (0.41 seconds), 0 items updated, 539 evaluated
+ExitCode: 0 Duration: 7s765ms
+Starting: D:\Program\6000.0.62f1\Editor\Data\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\1900b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: D:/myPro/game/TEFO
+ExitCode: 0 Duration: 13s
+Finished compiling graph: 1004 nodes, 18494 flattened edges (15058 ToBuild, 160 ToUse), maximum node priority 1150
+[ 539/1001  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp
+[ 777/1001  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY       6s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[ 997/1001 11s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+Assets\Editor\TEFOMapLayerSetupTool.cs(191,9): warning CS0618: 'Collider2D.usedByComposite' is obsolete: 'usedByComposite has been deprecated. Use Collider2D.compositeOperation instead'
+
+Assets\Editor\TEFOReferenceWorldMapBuilder.cs(221,17): warning CS0618: 'Collider2D.usedByComposite' is obsolete: 'usedByComposite has been deprecated. Use Collider2D.compositeOperation instead'
+
+Assets\Editor\TEFOSmallMapRebuildTool.cs(530,17): warning CS0618: 'Collider2D.usedByComposite' is obsolete: 'usedByComposite has been deprecated. Use Collider2D.compositeOperation instead'
+[ 998/1001  0s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll, with 126 defines and 337 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[ 999/1001  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[1000/1001  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (13.26 seconds), 6 items updated, 1001 evaluated
+Assets\Editor\TEFOMapLayerSetupTool.cs(191,9): warning CS0618: 'Collider2D.usedByComposite' is obsolete: 'usedByComposite has been deprecated. Use Collider2D.compositeOperation instead'
+Assets\Editor\TEFOReferenceWorldMapBuilder.cs(221,17): warning CS0618: 'Collider2D.usedByComposite' is obsolete: 'usedByComposite has been deprecated. Use Collider2D.compositeOperation instead'
+Assets\Editor\TEFOSmallMapRebuildTool.cs(530,17): warning CS0618: 'Collider2D.usedByComposite' is obsolete: 'usedByComposite has been deprecated. Use Collider2D.compositeOperation instead'
+Total cache size 62506928
+Total cache size after purge 62506928, took 00:00:00.0588112
+AssetDatabase: script compilation time: 32.751702s
+'Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log' Amount of processed bytes '22804' does not match file size '20337'
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  4.350 seconds
+Start importing Assets/Art/Vehicles/AE86_final/Reports/Editor using Guid(63b651d4dbe00a344805b86cdfdb828f) (DefaultImporter) -> (artifact id: '38e5bff0ee2e305a3c40a9fbe86b7a30') in 0.0534333 seconds
+Refreshing native plugins compatible for Editor in 7.88 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.867 seconds
+Domain Reload Profiling: 8209ms
+	BeginReloadAssembly (294ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (3955ms)
+		LoadAssemblies (3065ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1055ms)
+			TypeCache.Refresh (976ms)
+				TypeCache.ScanAssembly (955ms)
+			BuildScriptInfoCaches (56ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (3868ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3572ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (176ms)
+			ProcessInitializeOnLoadAttributes (3036ms)
+			ProcessInitializeOnLoadMethodAttributes (309ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Start importing Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log using Guid(00fcdf6117b1a5c4cab7b1542611d7a0) (DefaultImporter) -> (artifact id: '00000000000000000000000000000000') in 0.1317554 seconds
+Import Error Code:(5)
+Message: Build asset version error: assets/art/vehicles/ae86_final/reports/active_prefab_integration_unity.log does not exit in SourceAssetDB
+'Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log' Amount of processed bytes '25090' does not match file size '23452'
+Start importing Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log using Guid(00fcdf6117b1a5c4cab7b1542611d7a0) (DefaultImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0013342 seconds
+Import Error Code:(5)
+Message: Build asset version error: assets/art/vehicles/ae86_final/reports/active_prefab_integration_unity.log does not exit in SourceAssetDB
+'Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log' Amount of processed bytes '25630' does not match file size '23452'
+Start importing Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log using Guid(00fcdf6117b1a5c4cab7b1542611d7a0) (DefaultImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0014226 seconds
+Import Error Code:(5)
+Message: Build asset version error: assets/art/vehicles/ae86_final/reports/active_prefab_integration_unity.log does not exit in SourceAssetDB
+'Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log' Amount of processed bytes '26170' does not match file size '23452'
+Start importing Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log using Guid(00fcdf6117b1a5c4cab7b1542611d7a0) (DefaultImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0016767 seconds
+Import Error Code:(5)
+Message: Build asset version error: assets/art/vehicles/ae86_final/reports/active_prefab_integration_unity.log does not exit in SourceAssetDB
+'Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log' Amount of processed bytes '26710' does not match file size '23452'
+Start importing Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log using Guid(00fcdf6117b1a5c4cab7b1542611d7a0) (DefaultImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0018652 seconds
+Import Error Code:(5)
+Message: Build asset version error: assets/art/vehicles/ae86_final/reports/active_prefab_integration_unity.log does not exit in SourceAssetDB
+'Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log' Amount of processed bytes '27250' does not match file size '23452'
+Start importing Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log using Guid(00fcdf6117b1a5c4cab7b1542611d7a0) (DefaultImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0013824 seconds
+Import Error Code:(5)
+Message: Build asset version error: assets/art/vehicles/ae86_final/reports/active_prefab_integration_unity.log does not exit in SourceAssetDB
+'Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log' Amount of processed bytes '27790' does not match file size '23452'
+Start importing Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log using Guid(00fcdf6117b1a5c4cab7b1542611d7a0) (DefaultImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0014837 seconds
+Import Error Code:(5)
+Message: Build asset version error: assets/art/vehicles/ae86_final/reports/active_prefab_integration_unity.log does not exit in SourceAssetDB
+'Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log' Amount of processed bytes '28330' does not match file size '23452'
+Start importing Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log using Guid(00fcdf6117b1a5c4cab7b1542611d7a0) (DefaultImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0014569 seconds
+Import Error Code:(5)
+Message: Build asset version error: assets/art/vehicles/ae86_final/reports/active_prefab_integration_unity.log does not exit in SourceAssetDB
+An infinite import loop has been detected. The following Assets were imported multiple times, but no changes to them have been detected. Please check if any custom code is trying to import them:
+Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log(modified date 2026-07-16T01:29:46.91Z)
+Assets/Art/Vehicles/AE86_final/Reports/cleanup_report.md(modified date 2026-07-16T01:05:38Z)
+Refreshing native plugins compatible for Editor in 1.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=5ee342b003a38a545bf1c8ad16d5df0a): Total: 44.246 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=1 (actual=8, local cache=18446744073709551609, cache server=0)
+		Asset DB Process Time: managed=11 ms, native=6350 ms
+		Asset DB Callback time: managed=636 ms, native=60 ms
+		Scripting: domain reloads=1, domain reload time=4350 ms, compile time=32755 ms, other=81 ms
+		Project Asset Count: scripts=1545, non-scripts=4280
+		Asset File Changes: new=3, changed=4, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.005ms
+	InvokePackagesCallback: 47.112ms
+	ApplyChangesToAssetFolders: 2.391ms
+	Scan: 1162.537ms
+	OnSourceAssetsModified: 2.523ms
+	CategorizeAssetsWithTransientArtifact: 101.664ms
+	ProcessAssetsWithTransientArtifactChanges: 129.461ms
+	CategorizeAssets: 346.476ms
+	ImportOutOfDateAssets: 4113.761ms (-28864.087ms without children)
+		ImportManagerImport: 210.364ms (5.697ms without children)
+			ImportInProcess: 204.573ms
+			UpdateCategorizedAssets: 0.094ms
+		CompileScripts: 32755.105ms
+		ReloadNativeAssets: 0.481ms
+		UnloadImportedAssets: 4.061ms
+		ReloadImportedAssets: 0.001ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 5.767ms
+		InitializingProgressBar: 0.183ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.007ms
+		OnDemandSchedulerStart: 1.878ms
+	PostProcessAllAssets: 644.399ms
+	Hotreload: 8.697ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.003ms
+	UnloadStreamsBegin: 1.963ms
+	UnloadStreamsEnd: 0.004ms
+	GenerateScriptTypeHashes: 7.685ms
+	Untracked: 37685.247ms
+
+Application.AssetDatabase Initial Refresh End
+Scanning for USB devices : 3.000ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-My project (1)
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6782 unused Assets / (3.6 MB). Loaded Objects now: 7519.
+Memory consumption went from 207.4 MB to 203.8 MB.
+Total: 22.029700 ms (FindLiveObjects: 1.690200 ms CreateObjectMapping: 1.389000 ms MarkObjects: 13.498700 ms  DeleteObjects: 5.446200 ms)
+
+Start importing Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log using Guid(00fcdf6117b1a5c4cab7b1542611d7a0) (DefaultImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0016711 seconds
+Import Error Code:(5)
+Message: Build asset version error: assets/art/vehicles/ae86_final/reports/active_prefab_integration_unity.log does not exit in SourceAssetDB
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:143)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 143]
+
+'Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log' Amount of processed bytes '32522' does not match file size '31291'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:143)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 143]
+
+Start importing Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log using Guid(00fcdf6117b1a5c4cab7b1542611d7a0) (DefaultImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0020477 seconds
+Import Error Code:(5)
+Message: Build asset version error: assets/art/vehicles/ae86_final/reports/active_prefab_integration_unity.log does not exit in SourceAssetDB
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:143)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 143]
+
+'Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log' Amount of processed bytes '34070' does not match file size '31291'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:143)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 143]
+
+Start importing Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log using Guid(00fcdf6117b1a5c4cab7b1542611d7a0) (DefaultImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001702 seconds
+Import Error Code:(5)
+Message: Build asset version error: assets/art/vehicles/ae86_final/reports/active_prefab_integration_unity.log does not exit in SourceAssetDB
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:143)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 143]
+
+'Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log' Amount of processed bytes '35617' does not match file size '31291'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:143)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 143]
+
+Start importing Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log using Guid(00fcdf6117b1a5c4cab7b1542611d7a0) (DefaultImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0016205 seconds
+Import Error Code:(5)
+Message: Build asset version error: assets/art/vehicles/ae86_final/reports/active_prefab_integration_unity.log does not exit in SourceAssetDB
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:143)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 143]
+
+'Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log' Amount of processed bytes '37165' does not match file size '31291'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:143)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 143]
+
+Start importing Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log using Guid(00fcdf6117b1a5c4cab7b1542611d7a0) (DefaultImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001545 seconds
+Import Error Code:(5)
+Message: Build asset version error: assets/art/vehicles/ae86_final/reports/active_prefab_integration_unity.log does not exit in SourceAssetDB
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:143)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 143]
+
+'Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log' Amount of processed bytes '38712' does not match file size '31291'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:143)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 143]
+
+Start importing Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log using Guid(00fcdf6117b1a5c4cab7b1542611d7a0) (DefaultImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0015121 seconds
+Import Error Code:(5)
+Message: Build asset version error: assets/art/vehicles/ae86_final/reports/active_prefab_integration_unity.log does not exit in SourceAssetDB
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:143)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 143]
+
+'Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log' Amount of processed bytes '40260' does not match file size '31291'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:143)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 143]
+
+Start importing Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log using Guid(00fcdf6117b1a5c4cab7b1542611d7a0) (DefaultImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0022618 seconds
+Import Error Code:(5)
+Message: Build asset version error: assets/art/vehicles/ae86_final/reports/active_prefab_integration_unity.log does not exit in SourceAssetDB
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:143)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 143]
+
+An infinite import loop has been detected. The following Assets were imported multiple times, but no changes to them have been detected. Please check if any custom code is trying to import them:
+Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log(modified date 2026-07-16T01:29:46.91Z)
+Assets/Art/Vehicles/AE86_final/Reports/cleanup_report.md(modified date 2026-07-16T01:05:38Z)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:143)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 143]
+
+Refreshing native plugins compatible for Editor in 3.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=8001b6527c8b2b64a9f219fcf09cd6be): Total: 0.425 seconds - Initiated by RefreshV2(ForceUpdate)
+	Summary:
+		Imports: total=0 (actual=7, local cache=18446744073709551609, cache server=0)
+		Asset DB Process Time: managed=1 ms, native=406 ms
+		Asset DB Callback time: managed=5 ms, native=11 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1545, non-scripts=4280
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.004ms
+	InvokePackagesCallback: 0.007ms
+	ApplyChangesToAssetFolders: 1.082ms
+	Scan: 161.587ms
+	OnSourceAssetsModified: 0.006ms
+	CategorizeAssetsWithTransientArtifact: 0.020ms
+	ProcessAssetsWithTransientArtifactChanges: 1.005ms
+	CategorizeAssets: 72.394ms
+	ImportOutOfDateAssets: 31.570ms (3.308ms without children)
+		ImportManagerImport: 19.309ms (0.821ms without children)
+			ImportInProcess: 18.436ms
+			UpdateCategorizedAssets: 0.053ms
+		ReloadNativeAssets: 0.423ms
+		UnloadImportedAssets: 2.208ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 5.311ms
+		InitializingProgressBar: 0.128ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.006ms
+		OnDemandSchedulerStart: 0.876ms
+	PostProcessAllAssets: 13.792ms
+	Hotreload: 3.457ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.687ms
+	UnloadStreamsBegin: 1.458ms
+	UnloadStreamsEnd: 0.002ms
+	Untracked: 137.645ms
+
+Loaded scene 'Library/Unused/2abcddbaedd26e04e8cb9f3efa546dfb'
+	Deserialize:            3.618 ms
+	Integration:            6.978 ms
+	Integration of assets:  0.007 ms
+	Thread Wait Time:       0.022 ms
+	Total Operation Time:   10.625 ms
+Start importing Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log using Guid(00fcdf6117b1a5c4cab7b1542611d7a0) (DefaultImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0012721 seconds
+Import Error Code:(5)
+Message: Build asset version error: assets/art/vehicles/ae86_final/reports/active_prefab_integration_unity.log does not exit in SourceAssetDB
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PrefabUtility:SaveAsPrefabAsset_Internal (UnityEngine.GameObject,string,bool&)
+UnityEditor.PrefabUtility:SaveAsPrefabAsset (UnityEngine.GameObject,string,bool&)
+UnityEditor.PrefabUtility:SaveAsPrefabAsset (UnityEngine.GameObject,string)
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:177)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 177]
+
+'Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log' Amount of processed bytes '45715' does not match file size '44324'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PrefabUtility:SaveAsPrefabAsset_Internal (UnityEngine.GameObject,string,bool&)
+UnityEditor.PrefabUtility:SaveAsPrefabAsset (UnityEngine.GameObject,string,bool&)
+UnityEditor.PrefabUtility:SaveAsPrefabAsset (UnityEngine.GameObject,string)
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:177)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 177]
+
+Start importing Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log using Guid(00fcdf6117b1a5c4cab7b1542611d7a0) (DefaultImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001322 seconds
+Import Error Code:(5)
+Message: Build asset version error: assets/art/vehicles/ae86_final/reports/active_prefab_integration_unity.log does not exit in SourceAssetDB
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PrefabUtility:SaveAsPrefabAsset_Internal (UnityEngine.GameObject,string,bool&)
+UnityEditor.PrefabUtility:SaveAsPrefabAsset (UnityEngine.GameObject,string,bool&)
+UnityEditor.PrefabUtility:SaveAsPrefabAsset (UnityEngine.GameObject,string)
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:177)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 177]
+
+'Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log' Amount of processed bytes '47766' does not match file size '44324'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PrefabUtility:SaveAsPrefabAsset_Internal (UnityEngine.GameObject,string,bool&)
+UnityEditor.PrefabUtility:SaveAsPrefabAsset (UnityEngine.GameObject,string,bool&)
+UnityEditor.PrefabUtility:SaveAsPrefabAsset (UnityEngine.GameObject,string)
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:177)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 177]
+
+Start importing Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log using Guid(00fcdf6117b1a5c4cab7b1542611d7a0) (DefaultImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0013742 seconds
+Import Error Code:(5)
+Message: Build asset version error: assets/art/vehicles/ae86_final/reports/active_prefab_integration_unity.log does not exit in SourceAssetDB
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PrefabUtility:SaveAsPrefabAsset_Internal (UnityEngine.GameObject,string,bool&)
+UnityEditor.PrefabUtility:SaveAsPrefabAsset (UnityEngine.GameObject,string,bool&)
+UnityEditor.PrefabUtility:SaveAsPrefabAsset (UnityEngine.GameObject,string)
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:177)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 177]
+
+'Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log' Amount of processed bytes '49818' does not match file size '44324'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PrefabUtility:SaveAsPrefabAsset_Internal (UnityEngine.GameObject,string,bool&)
+UnityEditor.PrefabUtility:SaveAsPrefabAsset (UnityEngine.GameObject,string,bool&)
+UnityEditor.PrefabUtility:SaveAsPrefabAsset (UnityEngine.GameObject,string)
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:177)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 177]
+
+Start importing Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log using Guid(00fcdf6117b1a5c4cab7b1542611d7a0) (DefaultImporter) -> (artifact id: '00000000000000000000000000000000') in 0.001606 seconds
+Import Error Code:(5)
+Message: Build asset version error: assets/art/vehicles/ae86_final/reports/active_prefab_integration_unity.log does not exit in SourceAssetDB
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PrefabUtility:SaveAsPrefabAsset_Internal (UnityEngine.GameObject,string,bool&)
+UnityEditor.PrefabUtility:SaveAsPrefabAsset (UnityEngine.GameObject,string,bool&)
+UnityEditor.PrefabUtility:SaveAsPrefabAsset (UnityEngine.GameObject,string)
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:177)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 177]
+
+'Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log' Amount of processed bytes '51869' does not match file size '44324'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PrefabUtility:SaveAsPrefabAsset_Internal (UnityEngine.GameObject,string,bool&)
+UnityEditor.PrefabUtility:SaveAsPrefabAsset (UnityEngine.GameObject,string,bool&)
+UnityEditor.PrefabUtility:SaveAsPrefabAsset (UnityEngine.GameObject,string)
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:177)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 177]
+
+Start importing Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log using Guid(00fcdf6117b1a5c4cab7b1542611d7a0) (DefaultImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0016348 seconds
+Import Error Code:(5)
+Message: Build asset version error: assets/art/vehicles/ae86_final/reports/active_prefab_integration_unity.log does not exit in SourceAssetDB
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PrefabUtility:SaveAsPrefabAsset_Internal (UnityEngine.GameObject,string,bool&)
+UnityEditor.PrefabUtility:SaveAsPrefabAsset (UnityEngine.GameObject,string,bool&)
+UnityEditor.PrefabUtility:SaveAsPrefabAsset (UnityEngine.GameObject,string)
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:177)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 177]
+
+'Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log' Amount of processed bytes '53921' does not match file size '44324'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PrefabUtility:SaveAsPrefabAsset_Internal (UnityEngine.GameObject,string,bool&)
+UnityEditor.PrefabUtility:SaveAsPrefabAsset (UnityEngine.GameObject,string,bool&)
+UnityEditor.PrefabUtility:SaveAsPrefabAsset (UnityEngine.GameObject,string)
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:177)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 177]
+
+Start importing Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log using Guid(00fcdf6117b1a5c4cab7b1542611d7a0) (DefaultImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0017257 seconds
+Import Error Code:(5)
+Message: Build asset version error: assets/art/vehicles/ae86_final/reports/active_prefab_integration_unity.log does not exit in SourceAssetDB
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PrefabUtility:SaveAsPrefabAsset_Internal (UnityEngine.GameObject,string,bool&)
+UnityEditor.PrefabUtility:SaveAsPrefabAsset (UnityEngine.GameObject,string,bool&)
+UnityEditor.PrefabUtility:SaveAsPrefabAsset (UnityEngine.GameObject,string)
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:177)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 177]
+
+'Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log' Amount of processed bytes '55973' does not match file size '44324'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PrefabUtility:SaveAsPrefabAsset_Internal (UnityEngine.GameObject,string,bool&)
+UnityEditor.PrefabUtility:SaveAsPrefabAsset (UnityEngine.GameObject,string,bool&)
+UnityEditor.PrefabUtility:SaveAsPrefabAsset (UnityEngine.GameObject,string)
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:177)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 177]
+
+Start importing Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log using Guid(00fcdf6117b1a5c4cab7b1542611d7a0) (DefaultImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0013126 seconds
+Import Error Code:(5)
+Message: Build asset version error: assets/art/vehicles/ae86_final/reports/active_prefab_integration_unity.log does not exit in SourceAssetDB
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PrefabUtility:SaveAsPrefabAsset_Internal (UnityEngine.GameObject,string,bool&)
+UnityEditor.PrefabUtility:SaveAsPrefabAsset (UnityEngine.GameObject,string,bool&)
+UnityEditor.PrefabUtility:SaveAsPrefabAsset (UnityEngine.GameObject,string)
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:177)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 177]
+
+An infinite import loop has been detected. The following Assets were imported multiple times, but no changes to them have been detected. Please check if any custom code is trying to import them:
+Assets/Prefab/Vehicles/Car_AE86.prefab(modified date 2026-07-16T01:31:06Z)
+Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log(modified date 2026-07-16T01:29:46.91Z)
+Assets/Tests/AE86Step1F/Prefabs/Car_AE86_Step1F_Test.prefab(modified date 2026-07-15T12:52:22Z)
+Assets/Art/Vehicles/AE86_final/Reports/cleanup_report.md(modified date 2026-07-16T01:05:38Z)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PrefabUtility:SaveAsPrefabAsset_Internal (UnityEngine.GameObject,string,bool&)
+UnityEditor.PrefabUtility:SaveAsPrefabAsset (UnityEngine.GameObject,string,bool&)
+UnityEditor.PrefabUtility:SaveAsPrefabAsset (UnityEngine.GameObject,string)
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:177)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 177]
+
+Refreshing native plugins compatible for Editor in 1.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=db8e0610263226c47aaaa799de042648): Total: 0.268 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log using Guid(00fcdf6117b1a5c4cab7b1542611d7a0) (DefaultImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0017204 seconds
+Import Error Code:(5)
+Message: Build asset version error: assets/art/vehicles/ae86_final/reports/active_prefab_integration_unity.log does not exit in SourceAssetDB
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+AE86ActivePrefabIntegrationTool:TryRollback () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:657)
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:223)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 657]
+
+'Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log' Amount of processed bytes '60747' does not match file size '44324'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+AE86ActivePrefabIntegrationTool:TryRollback () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:657)
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:223)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 657]
+
+Start importing Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log using Guid(00fcdf6117b1a5c4cab7b1542611d7a0) (DefaultImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0012421 seconds
+Import Error Code:(5)
+Message: Build asset version error: assets/art/vehicles/ae86_final/reports/active_prefab_integration_unity.log does not exit in SourceAssetDB
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+AE86ActivePrefabIntegrationTool:TryRollback () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:657)
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:223)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 657]
+
+'Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log' Amount of processed bytes '62729' does not match file size '44324'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+AE86ActivePrefabIntegrationTool:TryRollback () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:657)
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:223)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 657]
+
+Start importing Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log using Guid(00fcdf6117b1a5c4cab7b1542611d7a0) (DefaultImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0013879 seconds
+Import Error Code:(5)
+Message: Build asset version error: assets/art/vehicles/ae86_final/reports/active_prefab_integration_unity.log does not exit in SourceAssetDB
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+AE86ActivePrefabIntegrationTool:TryRollback () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:657)
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:223)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 657]
+
+'Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log' Amount of processed bytes '64711' does not match file size '44324'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+AE86ActivePrefabIntegrationTool:TryRollback () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:657)
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:223)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 657]
+
+Start importing Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log using Guid(00fcdf6117b1a5c4cab7b1542611d7a0) (DefaultImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0012766 seconds
+Import Error Code:(5)
+Message: Build asset version error: assets/art/vehicles/ae86_final/reports/active_prefab_integration_unity.log does not exit in SourceAssetDB
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+AE86ActivePrefabIntegrationTool:TryRollback () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:657)
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:223)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 657]
+
+'Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log' Amount of processed bytes '66693' does not match file size '44324'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+AE86ActivePrefabIntegrationTool:TryRollback () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:657)
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:223)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 657]
+
+Start importing Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log using Guid(00fcdf6117b1a5c4cab7b1542611d7a0) (DefaultImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0014625 seconds
+Import Error Code:(5)
+Message: Build asset version error: assets/art/vehicles/ae86_final/reports/active_prefab_integration_unity.log does not exit in SourceAssetDB
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+AE86ActivePrefabIntegrationTool:TryRollback () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:657)
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:223)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 657]
+
+'Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log' Amount of processed bytes '68675' does not match file size '44324'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+AE86ActivePrefabIntegrationTool:TryRollback () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:657)
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:223)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 657]
+
+Start importing Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log using Guid(00fcdf6117b1a5c4cab7b1542611d7a0) (DefaultImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0013307 seconds
+Import Error Code:(5)
+Message: Build asset version error: assets/art/vehicles/ae86_final/reports/active_prefab_integration_unity.log does not exit in SourceAssetDB
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+AE86ActivePrefabIntegrationTool:TryRollback () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:657)
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:223)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 657]
+
+'Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log' Amount of processed bytes '70657' does not match file size '44324'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+AE86ActivePrefabIntegrationTool:TryRollback () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:657)
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:223)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 657]
+
+Start importing Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log using Guid(00fcdf6117b1a5c4cab7b1542611d7a0) (DefaultImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0015862 seconds
+Import Error Code:(5)
+Message: Build asset version error: assets/art/vehicles/ae86_final/reports/active_prefab_integration_unity.log does not exit in SourceAssetDB
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+AE86ActivePrefabIntegrationTool:TryRollback () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:657)
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:223)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 657]
+
+An infinite import loop has been detected. The following Assets were imported multiple times, but no changes to them have been detected. Please check if any custom code is trying to import them:
+Assets/Prefab/Vehicles/Car_AE86.prefab - (Force Reimport)(modified date 2026-07-11T15:36:30Z)
+Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log(modified date 2026-07-16T01:29:46.91Z)
+Assets/Tests/AE86Step1F/Prefabs/Car_AE86_Step1F_Test.prefab(modified date 2026-07-15T12:52:22Z)
+Assets/Art/Vehicles/AE86_final/Reports/cleanup_report.md(modified date 2026-07-16T01:05:38Z)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+AE86ActivePrefabIntegrationTool:TryRollback () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:657)
+AE86ActivePrefabIntegrationTool:IntegrateAndValidate () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:223)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine () (at Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs:123)
+
+[Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs line 657]
+
+Refreshing native plugins compatible for Editor in 1.41 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=6a62122ae6095074ab83c3139ac83f5f): Total: 0.256 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=b5f5875e10563334589b0c2974c352a0): Total: 0.032 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+IOException: PrefabUtility.SaveAsPrefabAsset returned null.
+  at AE86ActivePrefabIntegrationTool.IntegrateAndValidate () [0x002d6] in D:\myPro\game\TEFO\Assets\Art\Vehicles\AE86_final\Reports\Editor\AE86ActivePrefabIntegrationTool.cs:224 
+  at AE86ActivePrefabIntegrationTool.RunFromCommandLine () [0x00000] in D:\myPro\game\TEFO\Assets\Art\Vehicles\AE86_final\Reports\Editor\AE86ActivePrefabIntegrationTool.cs:123 
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+AE86ActivePrefabIntegrationTool:RunFromCommandLine() (at Assets\Art\Vehicles\AE86_final\Reports\Editor\AE86ActivePrefabIntegrationTool.cs:136)
+
+(Filename: Assets/Art/Vehicles/AE86_final/Reports/Editor/AE86ActivePrefabIntegrationTool.cs Line: 136)
+
+Curl error 42: Callback aborted
+[Physics::Module] Cleanup current backned.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-ThienBao-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-ThienBao channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1784165469303,"processId":14396,"allocatedMemory":18679115,"memoryLabels":[{"Default":26405},{"Permanent":15356},{"NewDelete":67393},{"Thread":4230384},{"Manager":30034},{"VertexData":8},{"Geometry":816},{"VFX":-104},{"Texture":160},{"Shader":78749},{"Material":24},{"GfxDevice":55168},{"Animation":392},{"Audio":4040},{"FontEngine":256},{"Physics":2081},{"Serialization":688},{"Input":14824},{"JobScheduler":33024},{"TextLib":160},{"Mono":32},{"MonoCode":64},{"ScriptingNativeRuntime":155060},{"BaseObject":1620240},{"Resource":1304},{"Renderer":2928},{"Transform":4646},{"File":1016},{"WebCam":616},{"Culling":32},{"Terrain":11394},{"Wind":24},{"STL":40},{"String":11309},{"DynamicArray":113125},{"HashMap":67886},{"Utility":2660350},{"Curl":48},{"PoolAlloc":1864},{"AI":104},{"TypeTree":5005},{"ScriptManager":512},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":112},{"GI":7888},{"Director":8240},{"CloudService":6928},{"WebRequest":845},{"VR":45969},{"SceneManager":496},{"Video":64},{"LazyScriptCache":32},{"Camera":17},{"Secure":1},{"Image":4096},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":384},{"Hierarchy":272},{"Gui":80},{"EditorUtility":54625},{"VersionControl":4},{"Undo":947},{"AssetDatabase":8930395},{"EditorGi":328},{"UnityConnect":24184},{"Upm":2036},{"DrivenProperties":72},{"LocalIPC":214},{"ProfilerEditor":9746},{"CoreBusinessMetrics":13675},{"Licensing":1232},{"AssetReference":32},{"IPCStream":32}]}
