@@ -34,6 +34,10 @@ public class RiceSway : MonoBehaviour
     [SerializeField] private float sidePushStrength = 1f;
     [SerializeField] private float minMovementSpeedForTrail = 0.2f;
 
+    [Header("Body Push")]
+    [SerializeField] private float bodyPushRadius = 0.65f;
+    [SerializeField] private float bodyPushStrength = 1f;
+
     [Header("Push Memory")]
     [SerializeField] private float pushMemoryDuration = 0.35f;
     [SerializeField] private float exitRecoverSmooth = 0.7f;
@@ -48,6 +52,10 @@ public class RiceSway : MonoBehaviour
     [SerializeField] private float currentTargetPush;
     [SerializeField] private float currentPush;
     [SerializeField] private Vector2 currentPlayerVelocity;
+    [SerializeField] private float currentBodyPush;
+    [SerializeField] private float currentTrailPush;
+    [SerializeField] private bool isInsideBodyZone;
+    [SerializeField] private bool isInsideTrailZone;
 
     private static Transform cachedPlayerTransform;
     private static int cachedPlayerPositionFrame = -1;
@@ -182,7 +190,8 @@ public class RiceSway : MonoBehaviour
     private void RecoverPush()
     {
         bool stillInMemory = Time.time - lastPushTime <= pushMemoryDuration;
-        float recoverSpeed = exitRecoverSmooth * lastRecoverMultiplier;
+        float baseRecoverSpeed = stillInMemory ? exitRecoverSmooth : recoverSmooth;
+        float recoverSpeed = baseRecoverSpeed * lastRecoverMultiplier;
 
         if (stillInMemory)
         {
@@ -203,6 +212,10 @@ public class RiceSway : MonoBehaviour
             currentDistance = float.PositiveInfinity;
             currentTargetPush = 0f;
             currentPlayerVelocity = Vector2.zero;
+            currentBodyPush = 0f;
+            currentTrailPush = 0f;
+            isInsideBodyZone = false;
+            isInsideTrailZone = false;
             RecoverPush();
             return;
         }
@@ -212,19 +225,35 @@ public class RiceSway : MonoBehaviour
         currentPlayerVelocity = cachedPlayerVelocity;
         Vector2 playerToRice = ricePosition - playerPosition;
         float radius = Mathf.Max(0.01f, pushRadius);
+        float bodyRadius = Mathf.Max(0.01f, bodyPushRadius);
         float trailSpeed = cachedPlayerVelocity.magnitude;
         bool playerMovingEnough = trailSpeed >= minMovementSpeedForTrail;
         float trailFactor = Mathf.InverseLerp(minMovementSpeedForTrail, minMovementSpeedForTrail * 3f, trailSpeed);
         float sideRadius = Mathf.Max(0.01f, interactionWidth);
         float alongRadius = Mathf.Max(0.01f, interactionLength + movementTrailLength * trailFactor);
-        float broadRadius = Mathf.Max(radius, alongRadius, sideRadius);
+        float broadRadius = Mathf.Max(radius, bodyRadius, alongRadius, sideRadius);
         float sqrDistance = playerToRice.sqrMagnitude;
-        float sqrBroadRadius = broadRadius * broadRadius;
+        float sqrBodyRadius = bodyRadius * bodyRadius;
+        float sqrTrailBroadRadius = broadRadius * broadRadius;
 
         currentDistance = float.PositiveInfinity;
         currentTargetPush = 0f;
+        currentBodyPush = 0f;
+        currentTrailPush = 0f;
+        isInsideBodyZone = false;
+        isInsideTrailZone = false;
 
-        if (playerMovingEnough && sqrDistance <= sqrBroadRadius)
+        if (sqrDistance <= sqrBodyRadius)
+        {
+            isInsideBodyZone = true;
+            currentDistance = Mathf.Sqrt(sqrDistance);
+
+            float normalizedBodyDistance = currentDistance / bodyRadius;
+            float bodyFalloff = Mathf.SmoothStep(1f, 0f, normalizedBodyDistance);
+            currentBodyPush = Mathf.Clamp01(bodyFalloff * bodyPushStrength);
+        }
+
+        if (playerMovingEnough && sqrDistance <= sqrTrailBroadRadius)
         {
             Vector2 trailDirection = GetTrailDirection();
             Vector2 sideDirection = new Vector2(-trailDirection.y, trailDirection.x);
@@ -237,22 +266,24 @@ public class RiceSway : MonoBehaviour
 
             if (ellipseDistance <= 1f)
             {
-                currentDistance = Mathf.Sqrt(sqrDistance);
+                isInsideTrailZone = true;
+                if (float.IsPositiveInfinity(currentDistance))
+                    currentDistance = Mathf.Sqrt(sqrDistance);
 
                 float distanceFalloff = Mathf.SmoothStep(1f, 0f, Mathf.Sqrt(ellipseDistance));
                 float centerlineFactor = 1f - Mathf.Clamp01(normalizedSide);
                 float pushStrength = Mathf.Lerp(sidePushStrength, centerlinePushStrength, centerlineFactor);
-                float targetPush = Mathf.Clamp01(distanceFalloff * pushStrength);
+                currentTrailPush = Mathf.Clamp01(distanceFalloff * pushStrength);
+            }
+        }
 
-                currentTargetPush = Mathf.Max(targetPush, minimumVisiblePush);
-                currentPushDirection = GetPositionPushDirection(playerToRice, noiseSeed);
-                currentPush = Mathf.Lerp(currentPush, currentTargetPush, Time.deltaTime * pushSmooth);
-                RememberPush();
-            }
-            else
-            {
-                RecoverPush();
-            }
+        float finalTargetPush = Mathf.Max(currentBodyPush, currentTrailPush);
+        if (finalTargetPush > 0f)
+        {
+            currentTargetPush = Mathf.Max(finalTargetPush, minimumVisiblePush);
+            currentPushDirection = GetPositionPushDirection(playerToRice, noiseSeed);
+            currentPush = Mathf.Lerp(currentPush, currentTargetPush, Time.deltaTime * pushSmooth);
+            RememberPush();
         }
         else
         {
@@ -262,7 +293,7 @@ public class RiceSway : MonoBehaviour
         if (debugPush && debugThisPlant)
         {
             Debug.Log(
-                $"{name}: player={playerTransform.name}, distance={currentDistance:F2}, targetPush={currentTargetPush:F2}, currentPush={currentPush:F2}, direction={currentPushDirection:F0}, playerVelocity={currentPlayerVelocity}",
+                $"{name}: player={playerTransform.name}, distance={currentDistance:F2}, bodyPush={currentBodyPush:F2}, trailPush={currentTrailPush:F2}, targetPush={currentTargetPush:F2}, currentPush={currentPush:F2}, insideBody={isInsideBodyZone}, insideTrail={isInsideTrailZone}, direction={currentPushDirection:F0}, playerVelocity={currentPlayerVelocity}",
                 this);
         }
     }
@@ -304,6 +335,9 @@ public class RiceSway : MonoBehaviour
     {
         Gizmos.color = new Color(1f, 0.8f, 0.1f, 0.35f);
         Gizmos.DrawWireSphere(transform.position, Mathf.Max(0.01f, pushRadius));
+
+        Gizmos.color = new Color(0.1f, 1f, 0.35f, 0.35f);
+        Gizmos.DrawWireSphere(transform.position, Mathf.Max(0.01f, bodyPushRadius));
 
         if (playerTransform == null)
             return;

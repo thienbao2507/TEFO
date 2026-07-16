@@ -4,6 +4,8 @@ public class CarTopDownController : MonoBehaviour
 {
     [SerializeField] private CarData carData;
     [SerializeField] private bool canControl = false;
+    [SerializeField] private CarAE86Controller ae86Controller;
+
     private float acceleration;
     private float maxSpeed;
     private float turnSpeed;
@@ -18,7 +20,12 @@ public class CarTopDownController : MonoBehaviour
         get
         {
             if (carData == null)
+            {
+                if (ae86Controller != null)
+                    return "AE86";
+
                 return "Unknown Car";
+            }
 
             return carData.carName;
         }
@@ -28,6 +35,9 @@ public class CarTopDownController : MonoBehaviour
     {
         get
         {
+            if (ae86Controller != null)
+                return ae86Controller.CurrentVelocity.magnitude;
+
             if (rb == null)
                 return 0f;
 
@@ -38,6 +48,12 @@ public class CarTopDownController : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+
+        if (ae86Controller == null)
+            ae86Controller = GetComponent<CarAE86Controller>();
+
+        if (ae86Controller != null)
+            ae86Controller.SetControlEnabled(canControl);
 
         if (carData != null)
         {
@@ -50,6 +66,12 @@ public class CarTopDownController : MonoBehaviour
 
     private void Update()
     {
+        if (ae86Controller != null)
+        {
+            ae86Controller.SetControlEnabled(canControl);
+            return;
+        }
+
         if (!canControl)
         {
             moveInput = 0f;
@@ -63,6 +85,9 @@ public class CarTopDownController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (rb == null || ae86Controller != null)
+            return;
+
         Vector2 forwardForce = transform.up * moveInput * acceleration;
         rb.AddForce(forwardForce, ForceMode2D.Force);
 
@@ -85,6 +110,9 @@ public class CarTopDownController : MonoBehaviour
     public void EnableControl()
     {
         canControl = true;
+
+        if (ae86Controller != null)
+            ae86Controller.SetControlEnabled(true);
     }
 
     public void DisableControl()
@@ -92,5 +120,10 @@ public class CarTopDownController : MonoBehaviour
         canControl = false;
         moveInput = 0f;
         turnInput = 0f;
+
+        if (ae86Controller != null)
+            ae86Controller.SetControlEnabled(false);
     }
+
+    public bool IsControlEnabled => canControl;
 }

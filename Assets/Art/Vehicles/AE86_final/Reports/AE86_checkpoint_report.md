@@ -1,0 +1,592 @@
+# AE86 Checkpoint Report
+
+## Repository
+
+- Repository root: `D:/myPro/game/TEFO`
+- Branch: `main`
+- Previous HEAD: `fc4edf13f95885b2348429ebcb53a1aa8a47e9d5`
+- New commit: `ffab82fa4bec67fab69488788eae35e7f29563e6`
+- Commit subject: `feat(ae86): activate 32-direction sprite set`
+- Committed files: `311`
+
+## Commit message
+
+```text
+feat(ae86): activate 32-direction sprite set
+
+- bind AE86_final Current17 to active Car_AE86 prefab
+- retain existing 32-direction mapping and flipX behavior
+- consolidate historical AE86 production work
+- accept slot 07 temporarily for active use
+- defer manual slot 07 pixel-art refinement
+```
+
+## Validation results
+
+- Active prefab Current17 binding: `PASS`
+- Current17 source sprites: `17/17 PASS`
+- Active binding entries: `17/17 PASS`
+- Runtime direction entries: `32/32 PASS`
+- Mirrored runtime directions: `15 PASS`
+- Archived Step references in active prefab: `0 PASS`
+- Compile validation: `PASS`
+- Prefab instantiation: `PASS`
+- Manual Play Mode: `CONFIRMED BY USER`
+
+## Protected hash results
+
+- Active prefab: `3E0B4CA86BC9F55A870C20148F4D6CF7034013C43694D04DFAA54A7C82E79DC2 PASS`
+- Active prefab meta: `97811AF65F068084477CE7947338CF685335416108C31B80CE76391A87492429 PASS`
+- CarAE86Controller.cs: `7E84C30BA30D1B554E8294699FFF54735707FE30D8756E0823AD90FBE3B47F88 PASS`
+- CarAE86DirectionVisual.cs: `04D3302BA505AF40B3D7B62DDF1B12AE4D15659E2CF5717B2EB3E7B09F82B44A PASS`
+- Slot 07 PNG: `E4B409FDBE2CCD25A38FB1AC94FD81307A48B6B228D0FD64AF0DF0F9A0F871CF PASS`
+- Active Production32 baseline files: `42/42 unchanged`
+- Scene baseline files: `12/12 unchanged by checkpoint`
+- Handling, colliders, runtime mapping, and flipX rules: `UNCHANGED`
+
+## Staged and committed scope
+
+- `Assets/Art/Vehicles/AE86_final.meta` and `Assets/Art/Vehicles/AE86_final/**`: 85 files
+- `Assets/Prefab/Vehicles/Car_AE86.prefab`: 1 file
+- `Docs/AE86Production32Fix/**`: 225 files
+- Out-of-scope committed paths: `0`
+- Exact pre-commit classification: `Assets/Art/Vehicles/AE86_final/Reports/AE86_checkpoint_git_inventory.csv`
+
+### Committed path list
+
+- `Assets/Art/Vehicles/AE86_final.meta`
+- `Assets/Art/Vehicles/AE86_final/Current17.meta`
+- `Assets/Art/Vehicles/AE86_final/Current17/00_090.00_up.png`
+- `Assets/Art/Vehicles/AE86_final/Current17/00_090.00_up.png.meta`
+- `Assets/Art/Vehicles/AE86_final/Current17/01_078.75.png`
+- `Assets/Art/Vehicles/AE86_final/Current17/01_078.75.png.meta`
+- `Assets/Art/Vehicles/AE86_final/Current17/02_067.50.png`
+- `Assets/Art/Vehicles/AE86_final/Current17/02_067.50.png.meta`
+- `Assets/Art/Vehicles/AE86_final/Current17/03_056.25.png`
+- `Assets/Art/Vehicles/AE86_final/Current17/03_056.25.png.meta`
+- `Assets/Art/Vehicles/AE86_final/Current17/04_045.00_upright.png`
+- `Assets/Art/Vehicles/AE86_final/Current17/04_045.00_upright.png.meta`
+- `Assets/Art/Vehicles/AE86_final/Current17/05_033.75.png`
+- `Assets/Art/Vehicles/AE86_final/Current17/05_033.75.png.meta`
+- `Assets/Art/Vehicles/AE86_final/Current17/06_022.50.png`
+- `Assets/Art/Vehicles/AE86_final/Current17/06_022.50.png.meta`
+- `Assets/Art/Vehicles/AE86_final/Current17/07_011.25_WORKING.png`
+- `Assets/Art/Vehicles/AE86_final/Current17/07_011.25_WORKING.png.meta`
+- `Assets/Art/Vehicles/AE86_final/Current17/08_000.00_right.png`
+- `Assets/Art/Vehicles/AE86_final/Current17/08_000.00_right.png.meta`
+- `Assets/Art/Vehicles/AE86_final/Current17/09_348.75.png`
+- `Assets/Art/Vehicles/AE86_final/Current17/09_348.75.png.meta`
+- `Assets/Art/Vehicles/AE86_final/Current17/10_337.50.png`
+- `Assets/Art/Vehicles/AE86_final/Current17/10_337.50.png.meta`
+- `Assets/Art/Vehicles/AE86_final/Current17/11_326.25.png`
+- `Assets/Art/Vehicles/AE86_final/Current17/11_326.25.png.meta`
+- `Assets/Art/Vehicles/AE86_final/Current17/12_315.00_downright.png`
+- `Assets/Art/Vehicles/AE86_final/Current17/12_315.00_downright.png.meta`
+- `Assets/Art/Vehicles/AE86_final/Current17/13_303.75.png`
+- `Assets/Art/Vehicles/AE86_final/Current17/13_303.75.png.meta`
+- `Assets/Art/Vehicles/AE86_final/Current17/14_292.50.png`
+- `Assets/Art/Vehicles/AE86_final/Current17/14_292.50.png.meta`
+- `Assets/Art/Vehicles/AE86_final/Current17/15_281.25.png`
+- `Assets/Art/Vehicles/AE86_final/Current17/15_281.25.png.meta`
+- `Assets/Art/Vehicles/AE86_final/Current17/16_270.00_down.png`
+- `Assets/Art/Vehicles/AE86_final/Current17/16_270.00_down.png.meta`
+- `Assets/Art/Vehicles/AE86_final/ManualSlot07.meta`
+- `Assets/Art/Vehicles/AE86_final/ManualSlot07/01_prev_slot06_22.50.png`
+- `Assets/Art/Vehicles/AE86_final/ManualSlot07/01_prev_slot06_22.50.png.meta`
+- `Assets/Art/Vehicles/AE86_final/ManualSlot07/02_working_slot07_11.25.png`
+- `Assets/Art/Vehicles/AE86_final/ManualSlot07/02_working_slot07_11.25.png.meta`
+- `Assets/Art/Vehicles/AE86_final/ManualSlot07/03_next_slot08_right.png`
+- `Assets/Art/Vehicles/AE86_final/ManualSlot07/03_next_slot08_right.png.meta`
+- `Assets/Art/Vehicles/AE86_final/ManualSlot07/README.md`
+- `Assets/Art/Vehicles/AE86_final/ManualSlot07/README.md.meta`
+- `Assets/Art/Vehicles/AE86_final/References.meta`
+- `Assets/Art/Vehicles/AE86_final/References/slot06_slot07_right_comparison.png`
+- `Assets/Art/Vehicles/AE86_final/References/slot06_slot07_right_comparison.png.meta`
+- `Assets/Art/Vehicles/AE86_final/References/step1f_17_source_contact_sheet.png`
+- `Assets/Art/Vehicles/AE86_final/References/step1f_17_source_contact_sheet.png.meta`
+- `Assets/Art/Vehicles/AE86_final/References/step1f_full32_preview.png`
+- `Assets/Art/Vehicles/AE86_final/References/step1f_full32_preview.png.meta`
+- `Assets/Art/Vehicles/AE86_final/References/step1g_imported_full32_preview.png`
+- `Assets/Art/Vehicles/AE86_final/References/step1g_imported_full32_preview.png.meta`
+- `Assets/Art/Vehicles/AE86_final/References/step1h_runtime_reference_NOT_FINAL.png`
+- `Assets/Art/Vehicles/AE86_final/References/step1h_runtime_reference_NOT_FINAL.png.meta`
+- `Assets/Art/Vehicles/AE86_final/Reports.meta`
+- `Assets/Art/Vehicles/AE86_final/Reports/active_prefab_before_after.sha256`
+- `Assets/Art/Vehicles/AE86_final/Reports/active_prefab_before_after.sha256.meta`
+- `Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_report.md`
+- `Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_report.md.meta`
+- `Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log`
+- `Assets/Art/Vehicles/AE86_final/Reports/active_prefab_integration_unity.log.meta`
+- `Assets/Art/Vehicles/AE86_final/Reports/active_prefab_sprite_binding.csv`
+- `Assets/Art/Vehicles/AE86_final/Reports/active_prefab_sprite_binding.csv.meta`
+- `Assets/Art/Vehicles/AE86_final/Reports/active_runtime32_mapping.csv`
+- `Assets/Art/Vehicles/AE86_final/Reports/active_runtime32_mapping.csv.meta`
+- `Assets/Art/Vehicles/AE86_final/Reports/AE86_active_checkpoint.md`
+- `Assets/Art/Vehicles/AE86_final/Reports/AE86_active_checkpoint.md.meta`
+- `Assets/Art/Vehicles/AE86_final/Reports/AE86_checkpoint_git_inventory.csv`
+- `Assets/Art/Vehicles/AE86_final/Reports/AE86_checkpoint_git_inventory.csv.meta`
+- `Assets/Art/Vehicles/AE86_final/Reports/AE86_checkpoint_hashes.sha256`
+- `Assets/Art/Vehicles/AE86_final/Reports/AE86_checkpoint_hashes.sha256.meta`
+- `Assets/Art/Vehicles/AE86_final/Reports/AE86_final_manifest.csv`
+- `Assets/Art/Vehicles/AE86_final/Reports/AE86_final_manifest.csv.meta`
+- `Assets/Art/Vehicles/AE86_final/Reports/AE86_final_readme.md`
+- `Assets/Art/Vehicles/AE86_final/Reports/AE86_final_readme.md.meta`
+- `Assets/Art/Vehicles/AE86_final/Reports/cleanup_inventory.csv`
+- `Assets/Art/Vehicles/AE86_final/Reports/cleanup_inventory.csv.meta`
+- `Assets/Art/Vehicles/AE86_final/Reports/cleanup_report.md`
+- `Assets/Art/Vehicles/AE86_final/Reports/cleanup_report.md.meta`
+- `Assets/Art/Vehicles/AE86_final/Reports/protected_assets_before.sha256`
+- `Assets/Art/Vehicles/AE86_final/Reports/protected_assets_before.sha256.meta`
+- `Assets/Art/Vehicles/AE86_final/Reports/unity_import_audit.csv`
+- `Assets/Art/Vehicles/AE86_final/Reports/unity_import_audit.csv.meta`
+- `Assets/Prefab/Vehicles/Car_AE86.prefab`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/_WorkspaceImportTool/Editor.meta`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/_WorkspaceImportTool/Editor/AE86FinalWorkspaceImportSetup.cs`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/_WorkspaceImportTool/Editor/AE86FinalWorkspaceImportSetup.cs.meta`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/_WorkspaceImportTool/unity_final_refresh.log`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/_WorkspaceImportTool/unity_import_editor.log`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/archive_path_mapping.csv`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/archive_readme.md`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/protected_assets_after.sha256`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1_Candidates/candidate_full32_preview.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1_Candidates/candidate_metrics.csv`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1_Candidates/candidate_neighbor_review.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1_Candidates/candidates17_contact_sheet.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1_Candidates/PNG/slot_01_78.75_candidate.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1_Candidates/PNG/slot_02_67.50_candidate.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1_Candidates/PNG/slot_03_56.25_candidate.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1_Candidates/PNG/slot_04_45.00_candidate.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1_Candidates/PNG/slot_05_33.75_candidate.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1_Candidates/PNG/slot_08_0.00_center_preview.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1_Candidates/PNG/slot_10_337.50_candidate.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1_Candidates/PNG/slot_11_326.25_candidate.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1_Candidates/PNG/slot_12_315.00_candidate.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1_Candidates/PNG/slot_13_303.75_candidate.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1_Candidates/PNG/slot_14_292.50_candidate.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1_Candidates/PNG/slot_15_281.25_candidate.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1_Candidates/Prompts/slot_06_22.50_angle_reference.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1_Candidates/Prompts/slot_06_22.50_prompt.txt`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1_Candidates/Prompts/slot_07_11.25_angle_reference.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1_Candidates/Prompts/slot_07_11.25_prompt.txt`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1_Candidates/Prompts/slot_09_348.75_angle_reference.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1_Candidates/Prompts/slot_09_348.75_prompt.txt`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1_Candidates/source_inventory.md`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1_Candidates/step1_candidate_report.md`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1_Candidates/Tools/AE86Step1Builder.cs`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1B_FinalSix/final_candidate_full32_preview.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1B_FinalSix/final_candidate_neighbor_review.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1B_FinalSix/final_candidates17_contact_sheet.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1B_FinalSix/final_six_contact_sheet.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1B_FinalSix/final_six_metrics.csv`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1B_FinalSix/PNG/README.md`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1B_FinalSix/Prompts/slot_01_78.75_prompt.txt`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1B_FinalSix/Prompts/slot_06_22.50_prompt.txt`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1B_FinalSix/Prompts/slot_07_11.25_prompt.txt`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1B_FinalSix/Prompts/slot_09_348.75_prompt.txt`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1B_FinalSix/Prompts/slot_14_292.50_prompt.txt`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1B_FinalSix/Prompts/slot_15_281.25_prompt.txt`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1B_FinalSix/References/slot_01_78.75_neighbor_triplet.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1B_FinalSix/References/slot_01_78.75_reference.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1B_FinalSix/References/slot_06_22.50_neighbor_triplet.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1B_FinalSix/References/slot_06_22.50_reference.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1B_FinalSix/References/slot_07_11.25_neighbor_triplet.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1B_FinalSix/References/slot_07_11.25_reference.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1B_FinalSix/References/slot_09_348.75_neighbor_triplet.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1B_FinalSix/References/slot_09_348.75_reference.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1B_FinalSix/References/slot_14_292.50_neighbor_triplet.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1B_FinalSix/References/slot_14_292.50_reference.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1B_FinalSix/References/slot_15_281.25_neighbor_triplet.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1B_FinalSix/References/slot_15_281.25_reference.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1B_FinalSix/Reports/Tools/AE86Step1BBuilder.cs`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1B_FinalSix/step1b_final_six_report.md`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1C_FinalCandidates/PNG/slot_10_337.50_scale_fixed_candidate.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1C_FinalCandidates/Previews/step1c_final_seven_review.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1C_FinalCandidates/Previews/step1c_final17_contact_sheet.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1C_FinalCandidates/Previews/step1c_full32_preview.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1C_FinalCandidates/Previews/step1c_neighbor_review.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1C_FinalCandidates/Reports/step1c_metrics.csv`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1C_FinalCandidates/Reports/step1c_report.md`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1C_FinalCandidates/Reports/Tools/AE86Step1CBuilder.cs`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1C_HybridLocal/PNG/slot_00_90.00_hybrid.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1C_HybridLocal/PNG/slot_01_78.75_hybrid.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1C_HybridLocal/PNG/slot_02_67.50_hybrid.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1C_HybridLocal/PNG/slot_03_56.25_hybrid.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1C_HybridLocal/PNG/slot_04_45.00_hybrid.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1C_HybridLocal/PNG/slot_05_33.75_hybrid.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1C_HybridLocal/PNG/slot_06_22.50_original_local.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1C_HybridLocal/PNG/slot_06_22.50_scale_normalized.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1C_HybridLocal/PNG/slot_07_11.25_hybrid.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1C_HybridLocal/PNG/slot_08_0.00_hybrid.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1C_HybridLocal/PNG/slot_09_348.75_hybrid.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1C_HybridLocal/PNG/slot_10_337.50_hybrid.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1C_HybridLocal/PNG/slot_11_326.25_hybrid.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1C_HybridLocal/PNG/slot_12_315.00_hybrid.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1C_HybridLocal/PNG/slot_13_303.75_hybrid.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1C_HybridLocal/PNG/slot_14_292.50_hybrid.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1C_HybridLocal/PNG/slot_15_281.25_hybrid.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1C_HybridLocal/PNG/slot_16_270.00_hybrid.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1C_HybridLocal/Previews/hybrid_local_17_contact_sheet.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1C_HybridLocal/Previews/hybrid_local_full32_preview.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1C_HybridLocal/Previews/hybrid_local_neighbor_review.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1C_HybridLocal/Previews/hybrid_local_slot06_comparison.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1C_HybridLocal/Previews/hybrid_local_slot09_10_11_comparison.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1C_HybridLocal/Reports/hybrid_local_metrics.csv`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1C_HybridLocal/Reports/hybrid_local_report.md`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1C_HybridLocal/Reports/Tools/AE86Step1CHybridBuilder.cs`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1D_LocalFlipRecovery/PNG/slot_00_90.00_step1d.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1D_LocalFlipRecovery/PNG/slot_01_78.75_step1d.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1D_LocalFlipRecovery/PNG/slot_02_67.50_step1d.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1D_LocalFlipRecovery/PNG/slot_03_56.25_step1d.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1D_LocalFlipRecovery/PNG/slot_04_45.00_step1d.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1D_LocalFlipRecovery/PNG/slot_05_33.75_step1d.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1D_LocalFlipRecovery/PNG/slot_06_22.50_step1d.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1D_LocalFlipRecovery/PNG/slot_07_11.25_original.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1D_LocalFlipRecovery/PNG/slot_07_11.25_scale_normalized.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1D_LocalFlipRecovery/PNG/slot_07_11.25_step1d.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1D_LocalFlipRecovery/PNG/slot_08_0.00_step1d.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1D_LocalFlipRecovery/PNG/slot_09_348.75_step1d.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1D_LocalFlipRecovery/PNG/slot_10_337.50_step1d.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1D_LocalFlipRecovery/PNG/slot_11_326.25_step1d.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1D_LocalFlipRecovery/PNG/slot_12_315.00_step1d.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1D_LocalFlipRecovery/PNG/slot_13_303.75_step1d.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1D_LocalFlipRecovery/PNG/slot_14_292.50_step1d.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1D_LocalFlipRecovery/PNG/slot_15_281.25_step1d.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1D_LocalFlipRecovery/PNG/slot_16_270.00_step1d.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1D_LocalFlipRecovery/Previews/step1d_17_contact_sheet.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1D_LocalFlipRecovery/Previews/step1d_full32_preview.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1D_LocalFlipRecovery/Previews/step1d_neighbor_review.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1D_LocalFlipRecovery/Previews/step1d_repaired_slots_review.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1D_LocalFlipRecovery/Previews/step1d_slot07_comparison.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1D_LocalFlipRecovery/Reports/step1d_metrics.csv`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1D_LocalFlipRecovery/Reports/step1d_report.md`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1D_LocalFlipRecovery/Reports/Tools/AE86Step1DBuilder.cs`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1E_ThreeMissingPoses/PNG/slot_06_22.50_step1e.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1E_ThreeMissingPoses/PNG/slot_09_348.75_step1e.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1E_ThreeMissingPoses/PNG/slot_14_292.50_step1e.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1E_ThreeMissingPoses/Previews/step1e_17_contact_sheet.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1E_ThreeMissingPoses/Previews/step1e_full32_preview.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1E_ThreeMissingPoses/Previews/step1e_neighbor_review.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1E_ThreeMissingPoses/Previews/step1e_three_slots_review.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1E_ThreeMissingPoses/Prompts/slot_06_22.50_prompt.txt`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1E_ThreeMissingPoses/Prompts/slot_09_348.75_prompt.txt`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1E_ThreeMissingPoses/Prompts/slot_14_292.50_prompt.txt`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1E_ThreeMissingPoses/References/slot_06_generated_raw.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1E_ThreeMissingPoses/References/slot_06_generated_raw_rejected_shallow.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1E_ThreeMissingPoses/References/slot_06_generated_raw_rejected_sideview.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1E_ThreeMissingPoses/References/slot_06_neighbor_triplet.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1E_ThreeMissingPoses/References/slot_09_generated_raw.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1E_ThreeMissingPoses/References/slot_09_neighbor_triplet.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1E_ThreeMissingPoses/References/slot_14_generated_raw.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1E_ThreeMissingPoses/References/slot_14_generated_raw_rejected_broad.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1E_ThreeMissingPoses/References/slot_14_neighbor_triplet.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1E_ThreeMissingPoses/Reports/step1e_metrics.csv`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1E_ThreeMissingPoses/Reports/step1e_report.md`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1E_ThreeMissingPoses/Reports/Tools/AE86Step1EBuilder.cs`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1E_ThreeMissingPoses/Reports/Tools/AE86Step1EBuilder.exe`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1F_IdentityRedraw/Candidates/slot_06_candidate_A.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1F_IdentityRedraw/Candidates/slot_06_candidate_B.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1F_IdentityRedraw/Candidates/slot_06_candidate_C.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1F_IdentityRedraw/Candidates/slot_09_candidate_A.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1F_IdentityRedraw/Candidates/slot_09_candidate_B.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1F_IdentityRedraw/Candidates/slot_09_candidate_C.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1F_IdentityRedraw/Candidates/slot_14_candidate_A.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1F_IdentityRedraw/Candidates/slot_14_candidate_B.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1F_IdentityRedraw/Candidates/slot_14_candidate_C.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1F_IdentityRedraw/PNG/slot_06_22.50_step1f.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1F_IdentityRedraw/PNG/slot_09_348.75_step1f.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1F_IdentityRedraw/PNG/slot_14_292.50_step1f.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1F_IdentityRedraw/Previews/step1f_17_contact_sheet.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1F_IdentityRedraw/Previews/step1f_candidate_comparison.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1F_IdentityRedraw/Previews/step1f_full32_preview.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1F_IdentityRedraw/Previews/step1f_identity_palette_review.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1F_IdentityRedraw/Previews/step1f_neighbor_review.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1F_IdentityRedraw/Previews/step1f_three_slots_review.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1F_IdentityRedraw/References/slot_06_identity_angle_reference.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1F_IdentityRedraw/References/slot_09_identity_angle_reference.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1F_IdentityRedraw/References/slot_14_identity_angle_reference.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1F_IdentityRedraw/Reports/step1f_metrics.csv`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1F_IdentityRedraw/Reports/step1f_report.md`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1F_IdentityRedraw/Reports/Tools/AE86Step1FBuilder.cs`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1F_IdentityRedraw/Reports/Tools/AE86Step1FBuilder.exe`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1G_UnityTest/Logs/step1g_assets_after.sha256`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1G_UnityTest/Logs/step1g_assets_before.sha256`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1G_UnityTest/Logs/step1g_unity_editor.log`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1G_UnityTest/Previews/step1g_imported_full32_preview.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1G_UnityTest/Reports/step1g_import_audit.csv`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1G_UnityTest/Reports/step1g_prefab_diff.md`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1G_UnityTest/Reports/step1g_setup_report.md`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1G_UnityTest/Reports/step1g_sprite_mapping.csv`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1H_Slot07Redraw/Candidates/slot_07_candidate_A.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1H_Slot07Redraw/Candidates/slot_07_candidate_B.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1H_Slot07Redraw/Candidates/slot_07_candidate_C.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1H_Slot07Redraw/PNG/slot_07_11.25_step1h.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1H_Slot07Redraw/Previews/step1h_17_contact_sheet.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1H_Slot07Redraw/Previews/step1h_before_after_runtime_comparison.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1H_Slot07Redraw/Previews/step1h_candidate_comparison.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1H_Slot07Redraw/Previews/step1h_full32_preview.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1H_Slot07Redraw/Previews/step1h_slot06_07_08_review.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1H_Slot07Redraw/References/slot_06_22.50_step1f.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1H_Slot07Redraw/References/slot_07_11.25_step1d.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1H_Slot07Redraw/References/slot_08_0.00_step1d.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1H_Slot07Redraw/Reports/step1h_metrics.csv`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1H_Slot07Redraw/Reports/step1h_report.md`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1H_Slot07Redraw/Reports/Tools/build_step1h_outputs.py`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1I_ManualSlot07/Candidates/slot_07_manual_A.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1I_ManualSlot07/Candidates/slot_07_manual_B.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1I_ManualSlot07/Candidates/slot_07_manual_C.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1I_ManualSlot07/PNG/slot_07_11.25_step1i.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1I_ManualSlot07/Previews/step1i_17_contact_sheet.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1I_ManualSlot07/Previews/step1i_before_after_comparison.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1I_ManualSlot07/Previews/step1i_candidate_comparison.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1I_ManualSlot07/Previews/step1i_full32_preview.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1I_ManualSlot07/Previews/step1i_pixel_edit_regions.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1I_ManualSlot07/Previews/step1i_slot06_07_08_review.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1I_ManualSlot07/Reports/step1i_metrics.csv`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1I_ManualSlot07/Reports/step1i_report.md`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1I_ManualSlot07/Reports/Tools/build_step1i_manual_patch.py`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1J_TrueSlot07Redraw/Candidates/slot_07_true_A.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1J_TrueSlot07Redraw/Candidates/slot_07_true_B.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1J_TrueSlot07Redraw/Candidates/slot_07_true_C.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1J_TrueSlot07Redraw/Previews/step1j_17_contact_sheet.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1J_TrueSlot07Redraw/Previews/step1j_before_after_comparison.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1J_TrueSlot07Redraw/Previews/step1j_candidate_comparison.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1J_TrueSlot07Redraw/Previews/step1j_full32_preview.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1J_TrueSlot07Redraw/Previews/step1j_geometry_guides.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1J_TrueSlot07Redraw/Previews/step1j_pixel_change_regions.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1J_TrueSlot07Redraw/Previews/step1j_slot06_07_08_review.png`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1J_TrueSlot07Redraw/Reports/step1j_metrics.csv`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1J_TrueSlot07Redraw/Reports/step1j_pixel_change_manifest.csv`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1J_TrueSlot07Redraw/Reports/step1j_report.md`
+- `Docs/AE86Production32Fix/_Archive_PreFinal/Step1J_TrueSlot07Redraw/Reports/Tools/build_step1j_true_redraw.py`
+- `Docs/AE86Production32Fix/ActiveIntegrationBackup/active_prefab_integration_unity_running.log`
+- `Docs/AE86Production32Fix/ActiveIntegrationBackup/backup_manifest.txt`
+- `Docs/AE86Production32Fix/ActiveIntegrationBackup/Car_AE86_before_AE86_final.prefab`
+- `Docs/AE86Production32Fix/ActiveIntegrationBackup/Car_AE86_before_AE86_final.prefab.meta`
+- `Docs/AE86Production32Fix/ActiveIntegrationBackup/failed_attempt_01_report.md`
+- `Docs/AE86Production32Fix/ActiveIntegrationBackup/failed_attempt_01_unity.log`
+- `Docs/AE86Production32Fix/ActiveIntegrationBackup/post_cleanup_unity.log`
+
+## Excluded unrelated changes
+
+- Working tree clean: `NO`
+- Remaining staged entries: `0`
+- Remaining unrelated tracked changes: `12` (6 modified, 6 deleted)
+- Remaining unrelated untracked files: `182`
+- These changes were excluded from the commit and their working-tree content was not altered.
+- This post-commit report is an additional expected untracked file created after the commit; the commit was not amended.
+
+### Remaining tracked changes
+
+- ` M .gitignore`
+- ` D Assets/Prefabs/Car_Basic.prefab`
+- ` D Assets/Prefabs/Car_Basic.prefab.meta`
+- ` D Assets/Prefabs/Car_Sport.prefab`
+- ` D Assets/Prefabs/Car_Sport.prefab.meta`
+- ` D Assets/Prefabs/Car_Truck.prefab`
+- ` D Assets/Prefabs/Car_Truck.prefab.meta`
+- ` M Assets/Scenes/MainScene.unity`
+- ` M Assets/Scripts/CarHUD.cs`
+- ` M Assets/Scripts/CarTopDownController.cs`
+- ` M Assets/Scripts/PlayerVehicleInteractor.cs`
+- ` M Assets/Scripts/RiceSway.cs`
+
+### Remaining untracked files
+
+- `Assets/Art/Vehicles.meta`
+- `Assets/Art/Vehicles/AE86.meta`
+- `Assets/Art/Vehicles/AE86/Body.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted.zip`
+- `Assets/Art/Vehicles/AE86/Body/Extracted.zip.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_000_00_right.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_000_00_right.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_011_25.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_011_25.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_022_50.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_022_50.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_033_75.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_033_75.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_045_00_upright.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_045_00_upright.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_056_25.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_056_25.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_067_50.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_067_50.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_078_75.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_078_75.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_090_00_up.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_090_00_up.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_270_00_down.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_270_00_down.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_281_25.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_281_25.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_292_50.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_292_50.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_303_75.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_303_75.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_315_00_downright.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_315_00_downright.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_326_25.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_326_25.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_337_50.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_337_50.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_348_75.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_348_75.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_production32_contact_transparent.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_production32_contact_transparent.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_production32_manifest.json`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_production32_manifest.json.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_production32_review.md`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_production32_review.md.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_production32_review_labeled.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/Production32/ae86_production32_review_labeled.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_detection_diagnostic.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_detection_diagnostic.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frame_00.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frame_00.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frame_01.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frame_01.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frame_02.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frame_02.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frame_03.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frame_03.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frame_04.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frame_04.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frame_05.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frame_05.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frame_06.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frame_06.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frame_07.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frame_07.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frame_08.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frame_08.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frame_09.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frame_09.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frame_10.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frame_10.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frame_11.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frame_11.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frame_12.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frame_12.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frame_13.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frame_13.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frame_14.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frame_14.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frame_15.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frame_15.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frame_16.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frame_16.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frames_contact_transparent.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frames_contact_transparent.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frames_manifest.json`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frames_manifest.json.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frames_review.md`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frames_review.md.meta`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frames_review_labeled.png`
+- `Assets/Art/Vehicles/AE86/Body/Extracted/ae86_frames_review_labeled.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/ae86_down.png`
+- `Assets/Art/Vehicles/AE86/Body/ae86_down.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/ae86_down_downright.png`
+- `Assets/Art/Vehicles/AE86/Body/ae86_down_downright.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/ae86_downright.png`
+- `Assets/Art/Vehicles/AE86/Body/ae86_downright.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/ae86_right.png`
+- `Assets/Art/Vehicles/AE86/Body/ae86_right.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/ae86_right_downright.png`
+- `Assets/Art/Vehicles/AE86/Body/ae86_right_downright.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/ae86_right_upright.png`
+- `Assets/Art/Vehicles/AE86/Body/ae86_right_upright.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/ae86_up.png`
+- `Assets/Art/Vehicles/AE86/Body/ae86_up.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/ae86_up_upright.png`
+- `Assets/Art/Vehicles/AE86/Body/ae86_up_upright.png.meta`
+- `Assets/Art/Vehicles/AE86/Body/ae86_upright.png`
+- `Assets/Art/Vehicles/AE86/Body/ae86_upright.png.meta`
+- `"Assets/Art/Vehicles/AE86/Body/full ae86.png"`
+- `"Assets/Art/Vehicles/AE86/Body/full ae86.png.meta"`
+- `Assets/Art/Vehicles/AE86/Wheels.meta`
+- `Assets/Prefab/Vehicles.meta`
+- `Assets/Prefab/Vehicles/Car_AE86.prefab.meta`
+- `Assets/Prefabs/Deprecated.meta`
+- `Assets/Prefabs/Deprecated/Vehicles.meta`
+- `Assets/Prefabs/Deprecated/Vehicles/Car_Basic.prefab`
+- `Assets/Prefabs/Deprecated/Vehicles/Car_Basic.prefab.meta`
+- `Assets/Prefabs/Deprecated/Vehicles/Car_Sport.prefab`
+- `Assets/Prefabs/Deprecated/Vehicles/Car_Sport.prefab.meta`
+- `Assets/Prefabs/Deprecated/Vehicles/Car_Truck.prefab`
+- `Assets/Prefabs/Deprecated/Vehicles/Car_Truck.prefab.meta`
+- `Assets/Scripts/Vehicles.meta`
+- `Assets/Scripts/Vehicles/CarAE86Controller.cs`
+- `Assets/Scripts/Vehicles/CarAE86Controller.cs.meta`
+- `Assets/Scripts/Vehicles/CarAE86DirectionVisual.cs`
+- `Assets/Scripts/Vehicles/CarAE86DirectionVisual.cs.meta`
+- `Assets/Tests.meta`
+- `Assets/Tests/AE86Step1F.meta`
+- `Assets/Tests/AE86Step1F/Art.meta`
+- `Assets/Tests/AE86Step1F/Art/ae86_000_00_right.png`
+- `Assets/Tests/AE86Step1F/Art/ae86_000_00_right.png.meta`
+- `Assets/Tests/AE86Step1F/Art/ae86_011_25.png`
+- `Assets/Tests/AE86Step1F/Art/ae86_011_25.png.meta`
+- `Assets/Tests/AE86Step1F/Art/ae86_022_50.png`
+- `Assets/Tests/AE86Step1F/Art/ae86_022_50.png.meta`
+- `Assets/Tests/AE86Step1F/Art/ae86_033_75.png`
+- `Assets/Tests/AE86Step1F/Art/ae86_033_75.png.meta`
+- `Assets/Tests/AE86Step1F/Art/ae86_045_00_upright.png`
+- `Assets/Tests/AE86Step1F/Art/ae86_045_00_upright.png.meta`
+- `Assets/Tests/AE86Step1F/Art/ae86_056_25.png`
+- `Assets/Tests/AE86Step1F/Art/ae86_056_25.png.meta`
+- `Assets/Tests/AE86Step1F/Art/ae86_067_50.png`
+- `Assets/Tests/AE86Step1F/Art/ae86_067_50.png.meta`
+- `Assets/Tests/AE86Step1F/Art/ae86_078_75.png`
+- `Assets/Tests/AE86Step1F/Art/ae86_078_75.png.meta`
+- `Assets/Tests/AE86Step1F/Art/ae86_090_00_up.png`
+- `Assets/Tests/AE86Step1F/Art/ae86_090_00_up.png.meta`
+- `Assets/Tests/AE86Step1F/Art/ae86_270_00_down.png`
+- `Assets/Tests/AE86Step1F/Art/ae86_270_00_down.png.meta`
+- `Assets/Tests/AE86Step1F/Art/ae86_281_25.png`
+- `Assets/Tests/AE86Step1F/Art/ae86_281_25.png.meta`
+- `Assets/Tests/AE86Step1F/Art/ae86_292_50.png`
+- `Assets/Tests/AE86Step1F/Art/ae86_292_50.png.meta`
+- `Assets/Tests/AE86Step1F/Art/ae86_303_75.png`
+- `Assets/Tests/AE86Step1F/Art/ae86_303_75.png.meta`
+- `Assets/Tests/AE86Step1F/Art/ae86_315_00_downright.png`
+- `Assets/Tests/AE86Step1F/Art/ae86_315_00_downright.png.meta`
+- `Assets/Tests/AE86Step1F/Art/ae86_326_25.png`
+- `Assets/Tests/AE86Step1F/Art/ae86_326_25.png.meta`
+- `Assets/Tests/AE86Step1F/Art/ae86_337_50.png`
+- `Assets/Tests/AE86Step1F/Art/ae86_337_50.png.meta`
+- `Assets/Tests/AE86Step1F/Art/ae86_348_75.png`
+- `Assets/Tests/AE86Step1F/Art/ae86_348_75.png.meta`
+- `Assets/Tests/AE86Step1F/Art/step1g_test_background.png`
+- `Assets/Tests/AE86Step1F/Art/step1g_test_background.png.meta`
+- `Assets/Tests/AE86Step1F/Editor.meta`
+- `Assets/Tests/AE86Step1F/Editor/AE86Step1FUnityTestBuilder.cs`
+- `Assets/Tests/AE86Step1F/Editor/AE86Step1FUnityTestBuilder.cs.meta`
+- `Assets/Tests/AE86Step1F/Prefabs.meta`
+- `Assets/Tests/AE86Step1F/Prefabs/Car_AE86_Step1F_Test.prefab`
+- `Assets/Tests/AE86Step1F/Prefabs/Car_AE86_Step1F_Test.prefab.meta`
+- `Assets/Tests/AE86Step1F/Runtime.meta`
+- `Assets/Tests/AE86Step1F/Runtime/AE86Step1FTestControlBootstrap.cs`
+- `Assets/Tests/AE86Step1F/Runtime/AE86Step1FTestControlBootstrap.cs.meta`
+- `Assets/Tests/AE86Step1F/Runtime/AE86Step1FTestOverlay.cs`
+- `Assets/Tests/AE86Step1F/Runtime/AE86Step1FTestOverlay.cs.meta`
+- `Assets/Tests/AE86Step1F/Scenes.meta`
+- `Assets/Tests/AE86Step1F/Scenes/AE86_Step1F_RuntimeTest.unity`
+- `Assets/Tests/AE86Step1F/Scenes/AE86_Step1F_RuntimeTest.unity.meta`
+- `Assets/Art/Vehicles/AE86_final/Reports/AE86_checkpoint_report.md` (this post-commit report)
+
+## Accepted slot 07 status
+
+- `KNOWN_VISUAL_ISSUE_SLOT07_ACCEPTED`
+- `SLOT07_MANUAL_FIX_DEFERRED`
+- File remains `Assets/Art/Vehicles/AE86_final/Current17/07_011.25_WORKING.png`
+- Technical mapping and sprite switching remain operational.
+
+## Push and rollback
+
+- Push status: `NOT_PUSHED`
+- No tag was created or modified.
+- Safe rollback command, not executed: `git revert ffab82fa4bec67fab69488788eae35e7f29563e6`
+
+AE86_CHECKPOINT_COMMITTED

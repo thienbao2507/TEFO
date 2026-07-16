@@ -8,10 +8,16 @@ public class CarHUD : MonoBehaviour
 
     private void Update()
     {
-        if (carSpawner == null || carInfoText == null)
+        if (carInfoText == null)
             return;
 
-        GameObject currentCar = carSpawner.CurrentCar;
+        CarTopDownController carController = PlayerVehicleInteractor.CurrentDrivenCar;
+        GameObject currentCar = null;
+
+        if (carController != null)
+            currentCar = carController.gameObject;
+        else if (carSpawner != null)
+            currentCar = carSpawner.CurrentCar;
 
         if (currentCar == null)
         {
@@ -19,7 +25,8 @@ public class CarHUD : MonoBehaviour
             return;
         }
 
-        CarTopDownController carController = currentCar.GetComponent<CarTopDownController>();
+        if (carController == null)
+            carController = currentCar.GetComponent<CarTopDownController>();
 
         if (carController == null)
             return;

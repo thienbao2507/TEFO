@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 9cdf882d255bf8c4593122c4f4d79c26
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5470574440209320506
+    second: ae86_production32_contact_transparent_0
+  - first:
+      213: 2543175954989510254
+    second: ae86_production32_contact_transparent_1
+  - first:
+      213: 7962544263428352161
+    second: ae86_production32_contact_transparent_2
+  - first:
+      213: 2564071033251978614
+    second: ae86_production32_contact_transparent_3
+  - first:
+      213: 7270550199258652411
+    second: ae86_production32_contact_transparent_4
+  - first:
+      213: 568171361538085671
+    second: ae86_production32_contact_transparent_5
+  - first:
+      213: 2100648830103102541
+    second: ae86_production32_contact_transparent_6
+  - first:
+      213: -5736630729275597837
+    second: ae86_production32_contact_transparent_7
+  - first:
+      213: 3095857140386765547
+    second: ae86_production32_contact_transparent_8
+  - first:
+      213: 5302829484602298223
+    second: ae86_production32_contact_transparent_9
+  - first:
+      213: 3670947846578976499
+    second: ae86_production32_contact_transparent_10
+  - first:
+      213: -756581016695418947
+    second: ae86_production32_contact_transparent_11
+  - first:
+      213: -6186308605909214181
+    second: ae86_production32_contact_transparent_12
+  - first:
+      213: 2329143321615710289
+    second: ae86_production32_contact_transparent_13
+  - first:
+      213: 919252317061639036
+    second: ae86_production32_contact_transparent_14
+  - first:
+      213: 2624084616638584003
+    second: ae86_production32_contact_transparent_15
+  - first:
+      213: 2676050060815751730
+    second: ae86_production32_contact_transparent_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ae86_production32_contact_transparent_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 15
+        width: 91
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a020218726beb40800000000000000
+      internalID: 5470574440209320506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ae86_production32_contact_transparent_1
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 15
+        width: 87
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ee6768e0d2b4320800000000000000
+      internalID: 2543175954989510254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ae86_production32_contact_transparent_2
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 15
+        width: 96
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a8a8f9f1d3a08e60800000000000000
+      internalID: 7962544263428352161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ae86_production32_contact_transparent_3
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 15
+        width: 106
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d5adb0509659320800000000000000
+      internalID: 2564071033251978614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ae86_production32_contact_transparent_4
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 15
+        width: 112
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe157c92ee26e460800000000000000
+      internalID: 7270550199258652411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ae86_production32_contact_transparent_5
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 15
+        width: 116
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7231700d7dc82e700800000000000000
+      internalID: 568171361538085671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ae86_production32_contact_transparent_6
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 15
+        width: 117
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44a2243bf0072d10800000000000000
+      internalID: 2100648830103102541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ae86_production32_contact_transparent_7
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 15
+        width: 144
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb10f5eeb46360b0800000000000000
+      internalID: -5736630729275597837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ae86_production32_contact_transparent_8
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 15
+        width: 155
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea1c18aaa1b6fa20800000000000000
+      internalID: 3095857140386765547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ae86_production32_contact_transparent_9
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 15
+        width: 147
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f0036125f679940800000000000000
+      internalID: 5302829484602298223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ae86_production32_contact_transparent_10
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 15
+        width: 142
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f63350fd93d1f230800000000000000
+      internalID: 3670947846578976499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ae86_production32_contact_transparent_11
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 15
+        width: 137
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbfc018e2951085f0800000000000000
+      internalID: -756581016695418947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ae86_production32_contact_transparent_12
+      rect:
+        serializedVersion: 2
+        x: 2357
+        y: 15
+        width: 129
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1cd6d17911d52aa0800000000000000
+      internalID: -6186308605909214181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ae86_production32_contact_transparent_13
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 15
+        width: 119
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158b0ebb287c25020800000000000000
+      internalID: 2329143321615710289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ae86_production32_contact_transparent_14
+      rect:
+        serializedVersion: 2
+        x: 2759
+        y: 15
+        width: 100
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7be969ac17d1cc00800000000000000
+      internalID: 919252317061639036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ae86_production32_contact_transparent_15
+      rect:
+        serializedVersion: 2
+        x: 2962
+        y: 15
+        width: 83
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c45f4b4e0f9a6420800000000000000
+      internalID: 2624084616638584003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ae86_production32_contact_transparent_16
+      rect:
+        serializedVersion: 2
+        x: 3153
+        y: 15
+        width: 89
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ad51c1a5d332520800000000000000
+      internalID: 2676050060815751730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ae86_production32_contact_transparent_0: 5470574440209320506
+      ae86_production32_contact_transparent_1: 2543175954989510254
+      ae86_production32_contact_transparent_10: 3670947846578976499
+      ae86_production32_contact_transparent_11: -756581016695418947
+      ae86_production32_contact_transparent_12: -6186308605909214181
+      ae86_production32_contact_transparent_13: 2329143321615710289
+      ae86_production32_contact_transparent_14: 919252317061639036
+      ae86_production32_contact_transparent_15: 2624084616638584003
+      ae86_production32_contact_transparent_16: 2676050060815751730
+      ae86_production32_contact_transparent_2: 7962544263428352161
+      ae86_production32_contact_transparent_3: 2564071033251978614
+      ae86_production32_contact_transparent_4: 7270550199258652411
+      ae86_production32_contact_transparent_5: 568171361538085671
+      ae86_production32_contact_transparent_6: 2100648830103102541
+      ae86_production32_contact_transparent_7: -5736630729275597837
+      ae86_production32_contact_transparent_8: 3095857140386765547
+      ae86_production32_contact_transparent_9: 5302829484602298223
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

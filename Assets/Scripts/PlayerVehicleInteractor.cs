@@ -18,6 +18,7 @@ public class PlayerVehicleInteractor : MonoBehaviour
     [SerializeField] private float interactRadius = 1.8f;
 
     private CarTopDownController nearbyCar;
+    public static CarTopDownController CurrentDrivenCar { get; private set; }
 
     private void Awake()
     {
@@ -147,6 +148,7 @@ public class PlayerVehicleInteractor : MonoBehaviour
     {
         currentCar = nearbyCar;
         isDriving = true;
+        CurrentDrivenCar = currentCar;
 
         HidePrompt();
 
@@ -189,6 +191,7 @@ public class PlayerVehicleInteractor : MonoBehaviour
         if (cameraFollow != null)
             cameraFollow.SetTarget(transform);
 
+        CurrentDrivenCar = null;
         currentCar = null;
     }
 }
